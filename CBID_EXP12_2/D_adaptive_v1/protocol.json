@@ -1,0 +1,38 @@
+{
+  "stage": "D development only; design informed by prior E/F diagnostics; no E/F access by this runner",
+  "input_sha256": "5778eb0d9fa26ec7a1a969011c9dc1b3d4f8837c62f4aecea225087c69c9af01",
+  "source_sha256": "7332cdc05237dcdf9e9f6352361361442555f8492ae59a687b55a2e37b178413",
+  "previous_freeze_sha256": "c48b1feca8df7a3d5bc032f092a773df873563c6586fa7fd26cfee6be6545d0c",
+  "risk_hashes": {
+    "42_M0_local": "ed068c9f0ded16c57ed9d8bc3d58d26afd10cc3ded6e2dae9d6ffd88f8df3bcc",
+    "42_G1_real_peer": "a635bc37792c1c5683c743250c7339e7509ac1baa9b8b4ce36de3120435e8c39",
+    "43_M0_local": "12bab24a8344cb21d3afb59182c9d8c0ef3af475f6709b27909cf6a161f2123d",
+    "43_G1_real_peer": "21bbd38179d3996ee1b144f85890fa80381fdcb7b8d2fb3f34cc2dbf359e8159",
+    "44_M0_local": "28e5005daeb0b02f24af0fb6b2ccf0f0cc97d10c5661dc389009432c84dd212f",
+    "44_G1_real_peer": "3f11bdf5a71ca4812defda04335b2368c7be72d16ae1c1b72cefc350e0a287b2"
+  },
+  "lookback_bins": 60,
+  "min_history_rows": 128,
+  "quantile": 0.9,
+  "rate": 0.01,
+  "cap": 10.0,
+  "penalties": {
+    "M0_local": 5.0,
+    "G1_real_peer": 20.0
+  },
+  "policies": [
+    "adaptive_score",
+    "adaptive_risk",
+    "adaptive_residual_risk"
+  ],
+  "min_attack_mean": 0.025,
+  "budget": 0.01,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "python": "3.12.3",
+  "sklearn": "1.7.2",
+  "torch": "2.9.0+cu130"
+}

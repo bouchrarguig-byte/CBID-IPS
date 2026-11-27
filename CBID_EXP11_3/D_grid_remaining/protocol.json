@@ -1,0 +1,37 @@
+{
+  "stage": "exploratory",
+  "test": "D already explored",
+  "train": "C saved risk estimates, no refit",
+  "test_sha256": "5778eb0d9fa26ec7a1a969011c9dc1b3d4f8837c62f4aecea225087c69c9af01",
+  "train_sha256": "a61e0a6bd8f8c26d726637efbcff90c9e114c833e149d26f3462a37f322b209c",
+  "script_sha256": "a1be25a68c41503159ee466b0ca372f14224a226fc164ee1fab7f1b351e3d94a",
+  "risk_script_sha256": "25d623d81691785326fba8f74b63914b3c092993715ed41a776c20d4965958a5",
+  "base_script_sha256": "4d98421298c81278d5df9686aa5511e3c53f03ecf061746e3c455e3e3fb86d20",
+  "model_freeze_sha256": "92198e78d35047750afc34edf96c9f482a81a746c302b7170fc8a857cbc2952e",
+  "policy_freeze_sha256": "d148b49e190382565810ca580d598a853fe769ad50a841250f306becc2aaf023",
+  "seeds": [
+    43,
+    44
+  ],
+  "rates": [
+    0.005,
+    0.01
+  ],
+  "penalties": [
+    5.0,
+    10.0,
+    20.0,
+    50.0
+  ],
+  "credit_cap": 10.0,
+  "horizon_seconds": 10,
+  "budget": 0.01,
+  "python": "3.12.3",
+  "sklearn": "1.7.2",
+  "risk_artifacts": {
+    "43_M0_local": "12bab24a8344cb21d3afb59182c9d8c0ef3af475f6709b27909cf6a161f2123d",
+    "43_G1_real_peer": "21bbd38179d3996ee1b144f85890fa80381fdcb7b8d2fb3f34cc2dbf359e8159",
+    "44_M0_local": "28e5005daeb0b02f24af0fb6b2ccf0f0cc97d10c5661dc389009432c84dd212f",
+    "44_G1_real_peer": "3f11bdf5a71ca4812defda04335b2368c7be72d16ae1c1b72cefc350e0a287b2"
+  }
+}

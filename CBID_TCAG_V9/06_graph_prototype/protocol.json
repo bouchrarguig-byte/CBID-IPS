@@ -1,0 +1,13 @@
+{
+  "epochs": 30,
+  "hidden": 64,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "scope": "exploratory B only",
+  "graph": "same destination/window peer clique; no self",
+  "shuffle": "group assignment permutation within window",
+  "calibration_fpr": 0.01
+}

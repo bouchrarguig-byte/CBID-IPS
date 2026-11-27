@@ -1,0 +1,528 @@
+[
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7952334804924447,
+    "macro_f1": 0.6372040210640005,
+    "scanning_f1": 0.3977620605932651,
+    "scanning_recall": 0.6296791443850267,
+    "scanning_precision": 0.29069588026539117,
+    "balanced_accuracy": 0.7224152688429617,
+    "mcc": 0.32597154326023026,
+    "predicted_positive": 6481,
+    "confusion_matrix": [
+      [
+        20272,
+        4597
+      ],
+      [
+        1108,
+        1884
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.2884496848090288,
+    "roc_auc": 0.839411248901463,
+    "model": "RF_local",
+    "seed": 42,
+    "selected_epoch": null,
+    "train_seconds": 1.0238121380007215,
+    "evaluation": "validation_only",
+    "latency": {
+      "device": "cpu",
+      "source_windows_timed": 4000,
+      "milliseconds_per_source_window": 0.03462330199999997,
+      "median_elapsed_sec": 0.13849320799999987,
+      "scope": "predict_proba on already-computed feature rows; excludes context aggregation/preprocessing"
+    }
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7644377445174257,
+    "macro_f1": 0.5856946153055511,
+    "scanning_f1": 0.3135655266185545,
+    "scanning_recall": 0.5010026737967914,
+    "scanning_precision": 0.22819302785812148,
+    "balanced_accuracy": 0.6485672020316942,
+    "mcc": 0.2167230161133325,
+    "predicted_positive": 6569,
+    "confusion_matrix": [
+      [
+        19799,
+        5070
+      ],
+      [
+        1493,
+        1499
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.2141045106489342,
+    "roc_auc": 0.7796872053410137,
+    "model": "RF_with_context",
+    "seed": 42,
+    "selected_epoch": null,
+    "train_seconds": 0.7795283940013178,
+    "evaluation": "validation_only",
+    "latency": {
+      "device": "cpu",
+      "source_windows_timed": 4000,
+      "milliseconds_per_source_window": 0.03212208825016205,
+      "median_elapsed_sec": 0.1284883530006482,
+      "scope": "predict_proba on already-computed feature rows; excludes context aggregation/preprocessing"
+    }
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7526650156132227,
+    "macro_f1": 0.6031829202258722,
+    "scanning_f1": 0.359632004460552,
+    "scanning_recall": 0.6467245989304813,
+    "scanning_precision": 0.2490668039644742,
+    "balanced_accuracy": 0.7060676756363774,
+    "mcc": 0.28454809236705414,
+    "predicted_positive": 7769,
+    "confusion_matrix": [
+      [
+        19035,
+        5834
+      ],
+      [
+        1057,
+        1935
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.41802016464973973,
+    "roc_auc": 0.8467883406913186,
+    "model": "XGB_local",
+    "seed": 42,
+    "selected_epoch": null,
+    "train_seconds": 0.3777374669989513,
+    "evaluation": "validation_only",
+    "latency": {
+      "device": "cpu",
+      "source_windows_timed": 4000,
+      "milliseconds_per_source_window": 0.0007985945003383677,
+      "median_elapsed_sec": 0.0031943780013534706,
+      "scope": "predict_proba on already-computed feature rows; excludes context aggregation/preprocessing"
+    }
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7464556189655791,
+    "macro_f1": 0.5847862662854795,
+    "scanning_f1": 0.32569683085147005,
+    "scanning_recall": 0.5701871657754011,
+    "scanning_precision": 0.22795296632816675,
+    "balanced_accuracy": 0.6689248587733413,
+    "mcc": 0.23599157774479307,
+    "predicted_positive": 7484,
+    "confusion_matrix": [
+      [
+        19091,
+        5778
+      ],
+      [
+        1286,
+        1706
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.2536908453344967,
+    "roc_auc": 0.8032468275474718,
+    "model": "XGB_with_context",
+    "seed": 42,
+    "selected_epoch": null,
+    "train_seconds": 0.21970933000011428,
+    "evaluation": "validation_only",
+    "latency": {
+      "device": "cpu",
+      "source_windows_timed": 4000,
+      "milliseconds_per_source_window": 0.0010644422500263317,
+      "median_elapsed_sec": 0.004257769000105327,
+      "scope": "predict_proba on already-computed feature rows; excludes context aggregation/preprocessing"
+    }
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7932593948530203,
+    "macro_f1": 0.6344118057974646,
+    "scanning_f1": 0.3934288121314238,
+    "scanning_recall": 0.6243315508021391,
+    "scanning_precision": 0.2872078720787208,
+    "balanced_accuracy": 0.7189573633217741,
+    "mcc": 0.32050817847315466,
+    "predicted_positive": 6504,
+    "confusion_matrix": [
+      [
+        20233,
+        4636
+      ],
+      [
+        1124,
+        1868
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.3677699666101147,
+    "roc_auc": 0.8117755286363647,
+    "model": "GATv2_star_edges",
+    "seed": 11,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 14.99950962100047,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": true,
+    "gpu_or_main_device_latency": {
+      "device": "cuda",
+      "repeats_excluding_warmup": 3,
+      "max_batches_per_pass": 12,
+      "sources_timed": 4324,
+      "graphs_timed": 1536,
+      "median_elapsed_sec": 0.07131927500086022,
+      "milliseconds_per_source_window": 0.016493819380402456,
+      "milliseconds_per_graph": 0.04643181966201837,
+      "source_windows_per_sec": 60628.771113389,
+      "scope": "precomputed graphs + PyG batch collation + host CPU/GPU transfers + model forward + probabilities, excluding NetFlow extraction, feature aggregation and preprocessing"
+    },
+    "cpu_latency": {
+      "device": "cpu",
+      "repeats_excluding_warmup": 3,
+      "max_batches_per_pass": 12,
+      "sources_timed": 4324,
+      "graphs_timed": 1536,
+      "median_elapsed_sec": 0.09991802100012137,
+      "milliseconds_per_source_window": 0.023107775439436026,
+      "milliseconds_per_graph": 0.06505079492195402,
+      "source_windows_per_sec": 43275.47680307587,
+      "scope": "precomputed graphs + PyG batch collation + host CPU/GPU transfers + model forward + probabilities, excluding NetFlow extraction, feature aggregation and preprocessing"
+    }
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7730160439323785,
+    "macro_f1": 0.6207121692811707,
+    "scanning_f1": 0.3803644914756026,
+    "scanning_recall": 0.6487299465240641,
+    "scanning_precision": 0.26906016079844747,
+    "balanced_accuracy": 0.7183494519302536,
+    "mcc": 0.30865655862626545,
+    "predicted_positive": 7214,
+    "confusion_matrix": [
+      [
+        19596,
+        5273
+      ],
+      [
+        1051,
+        1941
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.34443783260604166,
+    "roc_auc": 0.8023391300360414,
+    "model": "GATv2_star_edges",
+    "seed": 22,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 14.209529768999346,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": true
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7845734180395535,
+    "macro_f1": 0.6280073964234835,
+    "scanning_f1": 0.38667484161046395,
+    "scanning_recall": 0.6323529411764706,
+    "scanning_precision": 0.27848101265822783,
+    "balanced_accuracy": 0.7176200348650458,
+    "mcc": 0.31381572948400155,
+    "predicted_positive": 6794,
+    "confusion_matrix": [
+      [
+        19967,
+        4902
+      ],
+      [
+        1100,
+        1892
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.32516712585678736,
+    "roc_auc": 0.8059349776250011,
+    "model": "GATv2_star_edges",
+    "seed": 33,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 13.283795654999267,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": true
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.750942177236998,
+    "macro_f1": 0.6000228635233753,
+    "scanning_f1": 0.35433144133246486,
+    "scanning_recall": 0.6363636363636364,
+    "scanning_precision": 0.2455190199871051,
+    "balanced_accuracy": 0.7005454033681948,
+    "mcc": 0.27707600895189227,
+    "predicted_positive": 7755,
+    "confusion_matrix": [
+      [
+        19018,
+        5851
+      ],
+      [
+        1088,
+        1904
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.298281458313793,
+    "roc_auc": 0.788728357717434,
+    "model": "GATv2_star_edges",
+    "seed": 44,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 14.009938022001734,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": true
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7632174006675999,
+    "macro_f1": 0.6134537445519637,
+    "scanning_f1": 0.37284913014545107,
+    "scanning_recall": 0.6554144385026738,
+    "scanning_precision": 0.2605287631194367,
+    "balanced_accuracy": 0.715800829770457,
+    "mcc": 0.3009336093659859,
+    "predicted_positive": 7527,
+    "confusion_matrix": [
+      [
+        19303,
+        5566
+      ],
+      [
+        1031,
+        1961
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.3385642875530884,
+    "roc_auc": 0.8047401875130497,
+    "model": "GATv2_star_edges",
+    "seed": 55,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 14.079050820000703,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": true
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.8108108108108109,
+    "macro_f1": 0.682342949971921,
+    "scanning_f1": 0.4803312629399586,
+    "scanning_recall": 0.8141711229946524,
+    "scanning_precision": 0.34065165711089357,
+    "balanced_accuracy": 0.8122888266064983,
+    "mcc": 0.4427136971254143,
+    "predicted_positive": 7151,
+    "confusion_matrix": [
+      [
+        20154,
+        4715
+      ],
+      [
+        556,
+        2436
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.4617600758783832,
+    "roc_auc": 0.8850699658187513,
+    "model": "GATv2_no_host_edges",
+    "seed": 11,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 14.429499668000062,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": false,
+    "gpu_or_main_device_latency": {
+      "device": "cuda",
+      "repeats_excluding_warmup": 3,
+      "max_batches_per_pass": 12,
+      "sources_timed": 4324,
+      "graphs_timed": 1536,
+      "median_elapsed_sec": 0.09495362300003762,
+      "milliseconds_per_source_window": 0.021959672294180763,
+      "milliseconds_per_graph": 0.06181876497398283,
+      "source_windows_per_sec": 45538.020176421145,
+      "scope": "precomputed graphs + PyG batch collation + host CPU/GPU transfers + model forward + probabilities, excluding NetFlow extraction, feature aggregation and preprocessing"
+    },
+    "cpu_latency": {
+      "device": "cpu",
+      "repeats_excluding_warmup": 3,
+      "max_batches_per_pass": 12,
+      "sources_timed": 4324,
+      "graphs_timed": 1536,
+      "median_elapsed_sec": 0.08540709999942919,
+      "milliseconds_per_source_window": 0.0197518732653629,
+      "milliseconds_per_graph": 0.055603580728795045,
+      "source_windows_per_sec": 50628.109372978346,
+      "scope": "precomputed graphs + PyG batch collation + host CPU/GPU transfers + model forward + probabilities, excluding NetFlow extraction, feature aggregation and preprocessing"
+    }
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7908904920857112,
+    "macro_f1": 0.6710369960403534,
+    "scanning_f1": 0.4724737413980442,
+    "scanning_recall": 0.8719919786096256,
+    "scanning_precision": 0.32401887729756584,
+    "balanced_accuracy": 0.8265625581254329,
+    "mcc": 0.44609071282892104,
+    "predicted_positive": 8052,
+    "confusion_matrix": [
+      [
+        19426,
+        5443
+      ],
+      [
+        383,
+        2609
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.4666405666539736,
+    "roc_auc": 0.893355306135702,
+    "model": "GATv2_no_host_edges",
+    "seed": 22,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 13.225264575999972,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": false
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.775205484368831,
+    "macro_f1": 0.6558402009123016,
+    "scanning_f1": 0.4531563782415088,
+    "scanning_recall": 0.8673128342245989,
+    "scanning_precision": 0.3067013355395343,
+    "balanced_accuracy": 0.8157184220180054,
+    "mcc": 0.42513627447634444,
+    "predicted_positive": 8461,
+    "confusion_matrix": [
+      [
+        19003,
+        5866
+      ],
+      [
+        397,
+        2595
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.43132235700495525,
+    "roc_auc": 0.8663968781979067,
+    "model": "GATv2_no_host_edges",
+    "seed": 33,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 12.615625997999814,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": false
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.771113743225297,
+    "macro_f1": 0.650928878553559,
+    "scanning_f1": 0.4461044037175367,
+    "scanning_recall": 0.8582887700534759,
+    "scanning_precision": 0.3013730782771975,
+    "balanced_accuracy": 0.8094572243045537,
+    "mcc": 0.4158790657563231,
+    "predicted_positive": 8521,
+    "confusion_matrix": [
+      [
+        18916,
+        5953
+      ],
+      [
+        424,
+        2568
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.400683228102958,
+    "roc_auc": 0.8677983260627937,
+    "model": "GATv2_no_host_edges",
+    "seed": 44,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 15.533100615000876,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": false
+  },
+  {
+    "n": 27861,
+    "positive": 2992,
+    "accuracy": 0.7903879975593123,
+    "macro_f1": 0.6650518826679883,
+    "scanning_f1": 0.46015899426881124,
+    "scanning_recall": 0.8318850267379679,
+    "scanning_precision": 0.31804242269358546,
+    "balanced_accuracy": 0.8086402495063437,
+    "mcc": 0.4252339373030446,
+    "predicted_positive": 7826,
+    "confusion_matrix": [
+      [
+        19532,
+        5337
+      ],
+      [
+        503,
+        2489
+      ]
+    ],
+    "threshold": 0.5,
+    "average_precision": 0.4275750226304994,
+    "roc_auc": 0.8742719268754369,
+    "model": "GATv2_no_host_edges",
+    "seed": 55,
+    "selected_epoch": 1,
+    "epochs_trained": 11,
+    "train_seconds": 15.90779935199862,
+    "parameters": 11202,
+    "evaluation": "validation_only",
+    "graph_edges_present": false
+  }
+]

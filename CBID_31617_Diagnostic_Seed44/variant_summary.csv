@@ -1,0 +1,3 @@
+variant,accuracy,n_windows,n_errors,macroF1_all12
+GATv2_uppertriangular,0.8875070661390616,1769,199,0.8669581207940434
+GATv2_selfloops,0.9988694177501414,1769,2,0.8277469478357381

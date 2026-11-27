@@ -1,0 +1,172 @@
+[
+  {
+    "path": "CBID_31617_DeepSets_5Seeds/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_31617_Peer_Information_Gate/development_20261125T085928Z/validation_predictions.csv",
+    "bytes": 3973807,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_APRE_V1/05_confirmation/inference/features/pair_windows_2019-04-27.csv",
+    "bytes": 14804808,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_APRE_V1/05_confirmation/inference/predictions.csv",
+    "bytes": 254763314,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_NFToN_Pilot_Results/dayholdout_v5_20261122T215801Z/test_predictions.csv",
+    "bytes": 5517224,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_NFToN_Scanning_Expanded_v4/destination_window_audit_2019-04-23_24_10s.csv",
+    "bytes": 2481971,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_NFToN_Scanning_Expanded_v4/host_window_end_2019-04-23_24_10s.csv",
+    "bytes": 8619592,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Clean_Baselines_v1/baseline_20261122T230244Z/split_indices.csv",
+    "bytes": 3296629,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/audit_20261124T195647Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/baselines_20261124T195844Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/baselines_20261125T113820Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/baselines_20261125T113836Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/baselines_20261125T113852Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/baselines_20261125T113907Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/gat_20261124T200158Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Residual_Graph_v3/gat_20261124T214414546851Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Residual_Graph_v3/gat_20261124T215806394891Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Residual_Graph_v3/preflight_20261124T214333038772Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_RT2022_Residual_Graph_v3/preflight_20261124T215058722005Z/cleaned_record_splits.csv",
+    "bytes": 3396523,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V10/02_fusion/graph/predictions.csv",
+    "bytes": 99860955,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V10/02_fusion/xgb/predictions.csv",
+    "bytes": 121554774,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V10/05_confirmation/features/pair_windows_2019-04-26.csv",
+    "bytes": 16527619,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V10/05_confirmation/predictions.csv",
+    "bytes": 277555546,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V9/02_temporal_features/pair_windows_2019-04-23.csv",
+    "bytes": 19104590,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V9/02_temporal_features/pair_windows_2019-04-25.csv",
+    "bytes": 23544063,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V9/03_relation_gate/predictions.csv",
+    "bytes": 90273074,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V9/05_walkforward/predictions.csv",
+    "bytes": 100952216,
+    "reason": "large_file"
+  },
+  {
+    "path": "CBID_TCAG_V9/06_graph_prototype/predictions.csv",
+    "bytes": 83009528,
+    "reason": "large_file"
+  },
+  {
+    "path": "telechargement 1/CBID_test_predictions.csv",
+    "bytes": 20383818,
+    "reason": "large_file"
+  }
+]

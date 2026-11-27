@@ -1,0 +1,13 @@
+class,train_records,train_windows,validation_records,validation_windows,test_records,test_windows,eligible_development_train_and_validation,has_window_support_in_all_three_partitions
+ARP_poisioning,5334,533,1143,114,1143,115,True,True
+DDOS_Slowloris,372,37,80,8,80,8,True,True
+DOS_SYN_Hping,63062,6307,13513,1352,13514,1351,True,True
+MQTT_Publish,2899,290,621,62,622,62,True,True
+Metasploit_Brute_Force_SSH,24,2,5,0,6,1,False,False
+NMAP_FIN_SCAN,19,2,4,1,5,0,True,False
+NMAP_OS_DETECTION,1400,140,300,30,300,30,True,True
+NMAP_TCP_scan,701,70,150,15,151,15,True,True
+NMAP_UDP_SCAN,1807,181,387,38,388,39,True,True
+NMAP_XMAS_TREE_SCAN,1407,140,301,30,302,30,True,True
+Thing_Speak,5355,535,1147,115,1148,115,True,True
+Wipro_bulb,153,16,33,3,33,3,True,True

@@ -1,0 +1,7 @@
+device,graphs_timed,pair_records_timed,median_ms_per_graph,median_ms_per_pair_record,scope,variant,seed
+cpu,768,12409,0.11652160937458689,0.0072115880409124615,prebuilt graphs + PyG batching + transfers + GATv2 + softmax; excludes NetFlow collection and graph feature construction,no_messages,11
+cuda,768,12409,0.0755991536465217,0.004678874204249227,prebuilt graphs + PyG batching + transfers + GATv2 + softmax; excludes NetFlow collection and graph feature construction,no_messages,11
+cpu,768,12409,0.12056430924426802,0.007461793013103218,prebuilt graphs + PyG batching + transfers + GATv2 + softmax; excludes NetFlow collection and graph feature construction,real_edges,11
+cuda,768,12409,0.0800315527342832,0.004953197880564872,prebuilt graphs + PyG batching + transfers + GATv2 + softmax; excludes NetFlow collection and graph feature construction,real_edges,11
+cpu,768,12409,0.11937255663951873,0.007388034773080054,prebuilt graphs + PyG batching + transfers + GATv2 + softmax; excludes NetFlow collection and graph feature construction,shuffled_edges,11
+cuda,768,12409,0.08068916601544629,0.004993897936970163,prebuilt graphs + PyG batching + transfers + GATv2 + softmax; excludes NetFlow collection and graph feature construction,shuffled_edges,11

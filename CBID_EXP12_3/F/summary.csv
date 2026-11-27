@@ -1,0 +1,3 @@
+model,policy,rate,penalty,n,attack_mean,attack_sd,benign_mean,benign_max,budget_passes,mean_actions,all_requested_seeds,feasible,pareto_feasible
+M0_local,allow,0.01,5.0,3,0.0,0.0,0.0,0.0,3,0.0,True,True,True
+M0_local,adaptive_risk,0.01,5.0,3,0.03357266121252783,0.025789112035677887,0.03142086687903055,0.04537363004359962,1,190.33333333333334,True,False,False

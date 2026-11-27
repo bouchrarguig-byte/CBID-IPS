@@ -1,0 +1,6 @@
+{
+  "wrong_both": 0,
+  "wrong_only_edges": 199,
+  "wrong_only_selfloops": 2,
+  "correct_both": 1568
+}

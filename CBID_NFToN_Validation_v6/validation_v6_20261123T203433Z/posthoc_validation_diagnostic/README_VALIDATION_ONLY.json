@@ -1,0 +1,8 @@
+{
+  "scope": "23-Apr-2019 validation only; this does NOT evaluate 24-Apr test",
+  "warning": "THRESHOLDS SELECTED ON THESE SAME VALIDATION LABELS ARE OPTIMISTIC AND CANNOT BE REPORTED AS UNBIASED TEST SCORES.",
+  "guidance": "If threshold tuning seems important, split the existing pre-holdout data into training, threshold-calibration, and independent validation in advance; then report locked results only on a genuinely unseen holdout.",
+  "comparison_warning": "Repeated seeds on one split measure optimization variability, not independent confidence intervals.",
+  "raw_validation_metrics_rows": 14,
+  "diagnostic_rows": 14
+}

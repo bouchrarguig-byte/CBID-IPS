@@ -1,0 +1,50 @@
+{
+  "feature_groups": {
+    "local": [
+      "flows",
+      "IN_BYTES",
+      "OUT_BYTES",
+      "IN_PKTS",
+      "OUT_PKTS",
+      "FLOW_DURATION_MILLISECONDS",
+      "RETRANSMITTED_IN_PKTS",
+      "RETRANSMITTED_OUT_PKTS",
+      "distinct_dst_ports",
+      "total_bytes",
+      "total_pkts",
+      "mean_duration",
+      "src_flows",
+      "src_bytes",
+      "src_destinations"
+    ],
+    "temporal": [
+      "pair_flows_prev60",
+      "pair_total_bytes_prev60",
+      "pair_total_pkts_prev60",
+      "pair_active_windows_prev60",
+      "source_src_flows_prev60",
+      "source_src_bytes_prev60",
+      "source_src_destinations_prev60",
+      "source_active_windows_prev60"
+    ],
+    "relational": [
+      "peer_count",
+      "peer_mean_flows",
+      "peer_mean_total_bytes",
+      "peer_mean_total_pkts",
+      "peer_mean_distinct_dst_ports",
+      "peer_mean_pair_flows_prev60",
+      "peer_mean_pair_active_windows_prev60"
+    ]
+  },
+  "permutation_changed_fraction": {
+    "train": 0.8448749117716258,
+    "cal": 0.7821205742352696,
+    "test_A": 0.6830851470026728,
+    "shift_B": 0.823777694214432
+  },
+  "calibration_FPR_target": 0.01,
+  "embargo_seconds": 120,
+  "seed": 31617,
+  "scope": "exploratory only; no day C; no graph message passing"
+}

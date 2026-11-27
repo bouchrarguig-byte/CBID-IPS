@@ -1,0 +1,68 @@
+{
+  "status": "EXPLORATORY label-assisted target choice, not independent blind test",
+  "dataset": "NF-ToN-IoT-v3",
+  "selected_destinations": [
+    "192.168.1.49",
+    "192.168.1.195",
+    "192.168.1.190",
+    "192.168.1.169",
+    "192.168.1.180",
+    "192.168.1.194",
+    "192.168.1.152",
+    "192.168.1.32",
+    "192.168.1.31",
+    "192.168.1.193",
+    "192.168.1.79"
+  ],
+  "days_utc": [
+    "2019-04-23",
+    "2019-04-24"
+  ],
+  "timestamp_column": "FLOW_END_MILLISECONDS",
+  "window_seconds": 10,
+  "model_feature_names": [
+    "n_flows",
+    "sum_in_bytes",
+    "sum_out_bytes",
+    "sum_in_pkts",
+    "sum_out_pkts",
+    "mean_flow_duration_ms",
+    "n_unique_dst_ports",
+    "fraction_tcp",
+    "fraction_udp"
+  ],
+  "excluded_columns": "all *_META, *_AUDIT_ONLY and y_scanning_host_window",
+  "counters": {
+    "rows_seen": 27520260,
+    "in_scope_all_labels": 7894306,
+    "selected_flows": 7852578,
+    "selected_benign_flows": 6982762,
+    "selected_scanning_flows": 869816,
+    "excluded_other_attacks_or_inconsistent_labels": 41728
+  },
+  "day_graph_summary": {
+    "2019-04-23": {
+      "graph_windows": 17768,
+      "graphs_with_scanning": 4755,
+      "graphs_multi_source_ge2": 1283,
+      "graphs_multi_source_ge3": 358,
+      "benign_only_graphs": 13013
+    },
+    "2019-04-24": {
+      "graph_windows": 21199,
+      "graphs_with_scanning": 4421,
+      "graphs_multi_source_ge2": 2760,
+      "graphs_multi_source_ge3": 299,
+      "benign_only_graphs": 16778
+    }
+  },
+  "warnings": [
+    "All observed scanning-vs-benign windows retained for selected targets and days; not just eligible blocks.",
+    "Other attacks excluded, not recoded as benign; this is a restricted binary task, not a multiclass IDS.",
+    "Sources and targets are graph identities, not confirmed compromised IoT devices.",
+    "Window features use FLOW_END_MILLISECONDS and are available only at the end of each 10s bin.",
+    "These source/destination targets were selected after reviewing labels: do not claim independent test.",
+    "Training data must be fit independently of evaluation data; hold out by time AND/OR destination.",
+    "An ablation of relations needs a comparable XGBoost model with neighborhood aggregates."
+  ]
+}

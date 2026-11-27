@@ -1,0 +1,123 @@
+{
+  "manuscript": "IJ-AI 31617",
+  "framework": "EGRE-TCAG",
+  "protocol_version": "FINAL-EF-V1",
+  "created_utc": "2026-11-26T10:00:10.577857+00:00",
+  "model_freeze_sha256": "92198e78d35047750afc34edf96c9f482a81a746c302b7170fc8a857cbc2952e",
+  "policy_freeze_sha256": "d148b49e190382565810ca580d598a853fe769ad50a841250f306becc2aaf023",
+  "dataset_sha256": "b3b6256e970a8986d87716edea4bfd436d68f04058bf5c26cf67e6d839c83698",
+  "training_day": "2019-04-25",
+  "previously_examined_days": [
+    "2019-04-23",
+    "2019-04-24",
+    "2019-04-25",
+    "2019-04-26",
+    "2019-04-27"
+  ],
+  "confirmation_days": [
+    "2019-04-28",
+    "2019-04-29"
+  ],
+  "expected_flow_counts": {
+    "2019-04-28": 329483,
+    "2019-04-29": 2058137
+  },
+  "day_independence_status": "candidate; prior documented inventory label-blind",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": [
+    "M0_local",
+    "M1_temporal",
+    "M2_context",
+    "M3_full",
+    "G0_no_message",
+    "G1_real_peer",
+    "G2_shuffled_peer",
+    "G3_context_mlp",
+    "H0_fixed",
+    "H1_fixed",
+    "H2_fixed",
+    "H3_fixed"
+  ],
+  "primary_metric": "Average Precision",
+  "primary_comparisons": [
+    [
+      "G1_real_peer",
+      "G2_shuffled_peer"
+    ],
+    [
+      "G1_real_peer",
+      "G0_no_message"
+    ],
+    [
+      "G1_real_peer",
+      "G3_context_mlp"
+    ],
+    [
+      "G1_real_peer",
+      "M3_full"
+    ]
+  ],
+  "bootstrap": {
+    "primary_block_minutes": 15,
+    "sensitivity_block_minutes": [
+      5,
+      60
+    ],
+    "replicates": 10000,
+    "random_seed": 2026,
+    "paired_models": true,
+    "paired_seeds": true,
+    "resample_seeds": false,
+    "familywise_alpha": 0.05,
+    "primary_comparison_count": 8,
+    "correction": "Bonferroni",
+    "individual_confidence_level": 0.99375,
+    "minimum_valid_replicates": 9500,
+    "minimum_primary_blocks": 20
+  },
+  "detection": {
+    "threshold_source": "original_B_calibration",
+    "target_fpr": 0.01
+  },
+  "response": {
+    "threshold_source": "frozen_APRE_V1",
+    "primary_model": "G1_real_peer",
+    "primary_horizon_s": 10,
+    "secondary_horizon_s": 60,
+    "extra_delays_s": [
+      0,
+      10
+    ],
+    "primary_extra_delay_s": 0,
+    "benign_exposure_budget": 0.01,
+    "evaluation_type": "open_loop_exposure"
+  },
+  "decision_rules": {
+    "positive_evidence": "corrected lower confidence bound above zero",
+    "negative_evidence": "corrected upper confidence bound below zero",
+    "inconclusive": "interval includes zero or insufficient support",
+    "architectural_superiority": "positive evidence against all primary controls on both days",
+    "single_class": "report support; inferential comparison unavailable",
+    "operational_budget": "report separately for each day and seed"
+  },
+  "allow_retraining": false,
+  "allow_recalibration": false,
+  "allow_posthoc_model_selection": false,
+  "sources": {
+    "cbid_tcag_v10_04_confirmation.py": "14b8347a2ec5d9098343a07c7bde2a40611fb64f6367d60d766f37e333f9c5fa",
+    "cbid_tcag_v9_02_temporal_features.py": "8eb611eb6242b4e8f46db3b0740a17592a5461565c12fd2ab61669c1460dabee",
+    "cbid_tcag_v9_03_relation_gate.py": "533b54e8094b8ab8097555d67ddfd29dcb1d4ede5ed525065578263da39f699d",
+    "cbid_tcag_v9_06_graph_prototype.py": "ddc3596f8329c2be8e8b62de1a771f540deb1e89f405c56861ec2fd1e8b905c8"
+  },
+  "limitations": [
+    "Seeds are not independent network datasets",
+    "Bootstrap intervals condition on frozen models",
+    "Temporal blocks may retain dependence",
+    "Completed-flow exposure is not actual prevention",
+    "No end-to-end deployment claim"
+  ]
+}

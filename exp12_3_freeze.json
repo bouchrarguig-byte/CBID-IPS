@@ -1,0 +1,53 @@
+{
+  "stage": "retrospective stress test; E/F diagnostics informed design; no independent confirmation",
+  "selection": "maximum mean attack suppression on D among candidates with all three seeds benign <=1% and mean attack >=2.5%; tie minimum maximum benign then lexical model/policy",
+  "development_archive_sha256": "f6c01aa1262d3b40cf702297bf1df6bd1533f58299b20897d73248f07f274b7a",
+  "diagnostic_archive_sha256": "2899e7dde26d2ae68b720915f9b038d29dc984fa1fc5ec8aa2455b92cf2a5ee8",
+  "previous_freeze_sha256": "c48b1feca8df7a3d5bc032f092a773df873563c6586fa7fd26cfee6be6545d0c",
+  "source_hashes": {
+    "cbid_exp11_closed_loop.py": "4d98421298c81278d5df9686aa5511e3c53f03ecf061746e3c455e3e3fb86d20",
+    "cbid_exp11_2_risk.py": "25d623d81691785326fba8f74b63914b3c092993715ed41a776c20d4965958a5",
+    "cbid_exp11_3_grid.py": "a1be25a68c41503159ee466b0ca372f14224a226fc164ee1fab7f1b351e3d94a",
+    "cbid_exp11_4_transfer.py": "4dbabd3ee37c9e8a6c73a839dd2a9f8cbf3a6e8da74d33d194f6ea3c6bec3488",
+    "cbid_exp12_2_adaptive.py": "7332cdc05237dcdf9e9f6352361361442555f8492ae59a687b55a2e37b178413"
+  },
+  "model": "M0_local",
+  "policy": "adaptive_risk",
+  "penalty": 5.0,
+  "lookback_bins": 60,
+  "min_history_rows": 128,
+  "quantile": 0.9,
+  "rate": 0.01,
+  "cap": 10.0,
+  "budget": 0.01,
+  "development_floor": 0.025,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "risk_hashes": {
+    "42": "ed068c9f0ded16c57ed9d8bc3d58d26afd10cc3ded6e2dae9d6ffd88f8df3bcc",
+    "43": "12bab24a8344cb21d3afb59182c9d8c0ef3af475f6709b27909cf6a161f2123d",
+    "44": "28e5005daeb0b02f24af0fb6b2ccf0f0cc97d10c5661dc389009432c84dd212f"
+  },
+  "days": {
+    "E": {
+      "date": "2019-04-28",
+      "windows": 62068,
+      "attack": 113505,
+      "benign": 215978,
+      "sha256": "7b9cde4817052a6db680c0cce4f131530e24b33e19d9efde33ae4e93f3272568",
+      "path": "CBID_FINAL_AUDIT/10_final_confirmation/E/inference/features/pair_windows_2019-04-28.csv"
+    },
+    "F": {
+      "date": "2019-04-29",
+      "windows": 25109,
+      "attack": 99863,
+      "benign": 1958274,
+      "sha256": "b8f5b9b95d14e837c32ad040e92f3831b508ec1d77a2126743fcb8e5f5dca8ad",
+      "path": "CBID_FINAL_AUDIT/10_final_confirmation/F/inference/features/pair_windows_2019-04-29.csv"
+    }
+  },
+  "decision_rule": "positive simulated suppression and benign disruption <=1% in every selected-policy run on both days; report 2.5% development floor separately; no further tuning or alternative candidate selection on E/F"
+}

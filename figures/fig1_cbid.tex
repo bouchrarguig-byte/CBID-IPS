@@ -1,0 +1,11 @@
+\begin{tikzpicture}[font=\small, >=Latex, node distance=4mm, box/.style={draw=blue!55!black,fill=blue!5,rounded corners=2pt,align=center,inner sep=4pt,text width=45mm}, ext/.style={box,draw=teal!65!black,fill=teal!7}, op/.style={box,draw=orange!70!black,fill=orange!8}, flow/.style={->,thick,draw=black!65}]
+\node[box,text width=100mm] (root) {\textbf{CBID research framework}\\Behavioral intrusion detection and response objectives};
+\node[box,below left=5mm and -45mm of root] (a) {Original investigation\\RT-IoT2022 / GATv2};
+\node[ext,below right=5mm and -45mm of root] (b) {Revision extension\\NF-ToN-IoT-v3 / TCAG};
+\node[ext,text width=100mm,below=20mm of root] (e) {EGRE: structural controls, statistical qualification and temporal transfer};
+\node[op,text width=100mm,below=of e] (r) {APRE / RA-APRE: open-loop response risk and action budgets};
+\node[box,text width=100mm,below=of r] (v) {Evidence-supported claims and computational evaluation};
+\draw[flow] (root.south) -- ++(0,-2mm) -| (a.north);\draw[flow] (root.south) -- ++(0,-2mm) -| (b.north);
+\draw[flow] (a.south) -- (a.south |- e.north);\draw[flow] (b.south) -- (b.south |- e.north);
+\draw[flow] (e)--(r);\draw[flow] (r)--(v);
+\end{tikzpicture}

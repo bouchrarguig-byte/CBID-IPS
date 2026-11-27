@@ -1,0 +1,14 @@
+{
+  "seed": 11,
+  "best_epoch": 2,
+  "best_validation_macroF1_eligible": 0.9011430071348463,
+  "train_seconds": 39.543402814997535,
+  "n_parameters": 2859660,
+  "graph_edges": "self-loops only",
+  "smote_used": false,
+  "training_sampler_balanced": false,
+  "original_doubled_activations_x1_plus_x1_retained": true,
+  "original_cosine_annealing_Tmax10_retained": true,
+  "torch_version": "2.9.0+cu130",
+  "checkpoint_file": "GATv2_selfloops_selected_state_dict.pt"
+}

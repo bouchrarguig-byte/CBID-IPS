@@ -1,0 +1,57 @@
+[
+  {
+    "script": "cbid_ra_apre_dynamic_budget",
+    "status": "candidate_missing_header",
+    "file": "cbid_ra_apre_dynamic_budget_candidate_missing_header_021eaad543.py",
+    "sha256": "021eaad54389e3b28c948c2111afdbb77cab184440a4c49cbcfd4764787acebd",
+    "history_line_range": [
+      13,
+      167
+    ],
+    "anchor_line": 19
+  },
+  {
+    "script": "cbid_ra_apre_cumulative_budget",
+    "status": "candidate_missing_header",
+    "file": "cbid_ra_apre_cumulative_budget_candidate_missing_header_6247d40da0.py",
+    "sha256": "6247d40da0d37c27d405eaee7eaa68858fce45ea6fb60a78dc2659b56bf47029",
+    "history_line_range": [
+      171,
+      358
+    ],
+    "anchor_line": 177
+  },
+  {
+    "script": "cbid_computational_benchmark",
+    "status": "candidate_missing_header",
+    "file": "cbid_computational_benchmark_candidate_missing_header_042131adc6.py",
+    "sha256": "042131adc6af8914e48e931bc9295e360fdf1a0488ae304bdfae2b497a958e5b",
+    "history_line_range": [
+      582,
+      1007
+    ],
+    "anchor_line": 600
+  },
+  {
+    "script": "cbid_temporal_bootstrap",
+    "status": "candidate_missing_header",
+    "file": "cbid_temporal_bootstrap_candidate_missing_header_7343a95d96.py",
+    "sha256": "7343a95d967b560d1e362ac2a92ece50b23736f0847148563dbdb982b192a6fa",
+    "history_line_range": [
+      1012,
+      1354
+    ],
+    "anchor_line": 1019
+  },
+  {
+    "script": "cbid_final_bootstrap",
+    "status": "candidate_missing_header",
+    "file": "cbid_final_bootstrap_candidate_missing_header_4654a4795d.py",
+    "sha256": "4654a4795d482e76b00f4fdc63fc48052c9aadc13891d3e846f6b1d024dadec1",
+    "history_line_range": [
+      1547,
+      1919
+    ],
+    "anchor_line": 1557
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "script_version": "validation_v6",
+  "created_utc": "20261123T203433Z",
+  "data_path": "/home/experimenter/Downloads/CBID_NFToN_Scanning_Expanded_v4/host_window_end_2019-04-23_24_10s.csv",
+  "input_sha256": "not_calculated_for_speed",
+  "split": {
+    "train": "< 2019-04-23T15:58:00+00:00",
+    "validation": ">= 2019-04-23T16:02:00+00:00 and < 2019-04-24T00:00:00+00:00",
+    "holdout_excluded": ">= 2019-04-24T00:00:00+00:00",
+    "embargo_seconds": 120
+  },
+  "selection_rule": "best validation macro-F1 at fixed threshold=0.5; no test-based tuning",
+  "features": [
+    "n_flows",
+    "sum_in_bytes",
+    "sum_out_bytes",
+    "sum_in_pkts",
+    "sum_out_pkts",
+    "mean_flow_duration_ms",
+    "n_unique_dst_ports",
+    "fraction_tcp",
+    "fraction_udp"
+  ],
+  "excluded": [
+    "no IP as predictor",
+    "no time as predictor",
+    "*_AUDIT_ONLY",
+    "y_scanning_host_window"
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "epochs": 40,
+  "patience": 10,
+  "batch_size": 128,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "dropout": 0.15,
+  "hidden_per_head": 32,
+  "heads": 2,
+  "limitation": "The relational graph is a per-destination, per-time-bin star with one synthetic mean-feature destination hub; it cannot demonstrate interactions between different destination groups.",
+  "status": "EXPLORATORY VALIDATION ONLY; does not establish superiority, real-time IPS, cognition or generalization."
+}

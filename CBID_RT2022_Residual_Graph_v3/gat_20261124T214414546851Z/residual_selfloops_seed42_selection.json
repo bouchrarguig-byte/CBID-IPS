@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "variant": "selfloops",
+  "selected_epoch": 14,
+  "validation_selection_macroF1": 0.9902858976092566,
+  "training_seconds": 57.888752197999565,
+  "n_parameters": 258156,
+  "checkpoints_selected_using_test": false
+}

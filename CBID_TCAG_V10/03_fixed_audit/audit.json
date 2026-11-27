@@ -1,0 +1,1154 @@
+[
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        425,
+        763
+      ],
+      "test": [
+        7605,
+        29671
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G3_context_mlp",
+    "counts": {
+      "cal": [
+        4293,
+        5314
+      ],
+      "test": [
+        16092,
+        22696
+      ]
+    }
+  }
+]

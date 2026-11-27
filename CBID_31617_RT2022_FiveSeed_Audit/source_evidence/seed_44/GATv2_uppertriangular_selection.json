@@ -1,0 +1,14 @@
+{
+  "seed": 44,
+  "best_epoch": 7,
+  "best_validation_macroF1_eligible": 0.8941816566356567,
+  "train_seconds": 110.76184413900046,
+  "n_parameters": 2859660,
+  "graph_edges": "i<j (45 directed edges for W=10) + PyG self-loops",
+  "smote_used": false,
+  "training_sampler_balanced": false,
+  "original_doubled_activations_x1_plus_x1_retained": true,
+  "original_cosine_annealing_Tmax10_retained": true,
+  "torch_version": "2.9.0+cu130",
+  "checkpoint_file": "GATv2_uppertriangular_selected_state_dict.pt"
+}

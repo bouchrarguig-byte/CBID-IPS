@@ -1,0 +1,359 @@
+{
+  "dataset": "NF-ToN-IoT-v3",
+  "date_utc": [
+    "2019-04-23",
+    "2019-04-24"
+  ],
+  "read_only_dataset": true,
+  "timestamp": "FLOW_END_MILLISECONDS",
+  "window_seconds": 10,
+  "block_minutes": 15,
+  "notes": [
+    "EXPLORATORY label-assisted assessment of scope; it is not a blind test.",
+    "Multiple labelled attacking sources in same window do NOT prove a coordinated botnet.",
+    "Benign-only bins are observed traffic bins, not zero-traffic periods.",
+    "IP source sets are used only for descriptive source diversity, never as ML predictor features.",
+    "No model has been trained; new held-out tests must be fixed before model tuning."
+  ],
+  "total_csv_rows": 27520260,
+  "scanning_flows_by_day": {
+    "2019-04-23": 262207,
+    "2019-04-24": 1096770
+  },
+  "scanning_destinations": 253,
+  "attack_bins": 43252,
+  "benign_bins": 100812,
+  "destinations_with_at_least_3_eligible_blocks": 11,
+  "top_destinations": [
+    {
+      "destination": "192.168.1.49",
+      "eligible_15min_blocks": 9,
+      "blocks_with_any_multi_source": 25,
+      "multi_source_10s_windows_ge2": 341,
+      "multi_source_10s_windows_ge3": 44,
+      "all_scanning_10s_windows": 1725,
+      "benign_only_10s_windows": 2861,
+      "attack_flows": 9613,
+      "benign_flows": 1100600
+    },
+    {
+      "destination": "192.168.1.195",
+      "eligible_15min_blocks": 8,
+      "blocks_with_any_multi_source": 15,
+      "multi_source_10s_windows_ge2": 582,
+      "multi_source_10s_windows_ge3": 65,
+      "all_scanning_10s_windows": 1121,
+      "benign_only_10s_windows": 5951,
+      "attack_flows": 129364,
+      "benign_flows": 1178464
+    },
+    {
+      "destination": "192.168.1.190",
+      "eligible_15min_blocks": 8,
+      "blocks_with_any_multi_source": 16,
+      "multi_source_10s_windows_ge2": 500,
+      "multi_source_10s_windows_ge3": 49,
+      "all_scanning_10s_windows": 1332,
+      "benign_only_10s_windows": 6060,
+      "attack_flows": 91965,
+      "benign_flows": 765409
+    },
+    {
+      "destination": "192.168.1.169",
+      "eligible_15min_blocks": 8,
+      "blocks_with_any_multi_source": 14,
+      "multi_source_10s_windows_ge2": 412,
+      "multi_source_10s_windows_ge3": 52,
+      "all_scanning_10s_windows": 1165,
+      "benign_only_10s_windows": 1780,
+      "attack_flows": 78358,
+      "benign_flows": 530675
+    },
+    {
+      "destination": "192.168.1.180",
+      "eligible_15min_blocks": 6,
+      "blocks_with_any_multi_source": 15,
+      "multi_source_10s_windows_ge2": 251,
+      "multi_source_10s_windows_ge3": 27,
+      "all_scanning_10s_windows": 701,
+      "benign_only_10s_windows": 1489,
+      "attack_flows": 133813,
+      "benign_flows": 1242633
+    },
+    {
+      "destination": "192.168.1.194",
+      "eligible_15min_blocks": 5,
+      "blocks_with_any_multi_source": 14,
+      "multi_source_10s_windows_ge2": 471,
+      "multi_source_10s_windows_ge3": 51,
+      "all_scanning_10s_windows": 785,
+      "benign_only_10s_windows": 2849,
+      "attack_flows": 164154,
+      "benign_flows": 517707
+    },
+    {
+      "destination": "192.168.1.152",
+      "eligible_15min_blocks": 5,
+      "blocks_with_any_multi_source": 9,
+      "multi_source_10s_windows_ge2": 253,
+      "multi_source_10s_windows_ge3": 25,
+      "all_scanning_10s_windows": 539,
+      "benign_only_10s_windows": 4387,
+      "attack_flows": 64346,
+      "benign_flows": 493577
+    },
+    {
+      "destination": "192.168.1.32",
+      "eligible_15min_blocks": 4,
+      "blocks_with_any_multi_source": 9,
+      "multi_source_10s_windows_ge2": 218,
+      "multi_source_10s_windows_ge3": 171,
+      "all_scanning_10s_windows": 332,
+      "benign_only_10s_windows": 511,
+      "attack_flows": 31099,
+      "benign_flows": 199593
+    },
+    {
+      "destination": "192.168.1.31",
+      "eligible_15min_blocks": 4,
+      "blocks_with_any_multi_source": 9,
+      "multi_source_10s_windows_ge2": 196,
+      "multi_source_10s_windows_ge3": 117,
+      "all_scanning_10s_windows": 279,
+      "benign_only_10s_windows": 572,
+      "attack_flows": 17841,
+      "benign_flows": 183776
+    },
+    {
+      "destination": "192.168.1.193",
+      "eligible_15min_blocks": 3,
+      "blocks_with_any_multi_source": 12,
+      "multi_source_10s_windows_ge2": 466,
+      "multi_source_10s_windows_ge3": 56,
+      "all_scanning_10s_windows": 730,
+      "benign_only_10s_windows": 2804,
+      "attack_flows": 97540,
+      "benign_flows": 586237
+    },
+    {
+      "destination": "192.168.1.79",
+      "eligible_15min_blocks": 3,
+      "blocks_with_any_multi_source": 8,
+      "multi_source_10s_windows_ge2": 353,
+      "multi_source_10s_windows_ge3": 0,
+      "all_scanning_10s_windows": 467,
+      "benign_only_10s_windows": 527,
+      "attack_flows": 51723,
+      "benign_flows": 184091
+    },
+    {
+      "destination": "192.168.1.30",
+      "eligible_15min_blocks": 2,
+      "blocks_with_any_multi_source": 4,
+      "multi_source_10s_windows_ge2": 92,
+      "multi_source_10s_windows_ge3": 75,
+      "all_scanning_10s_windows": 122,
+      "benign_only_10s_windows": 306,
+      "attack_flows": 3120,
+      "benign_flows": 78770
+    },
+    {
+      "destination": "192.168.1.186",
+      "eligible_15min_blocks": 2,
+      "blocks_with_any_multi_source": 2,
+      "multi_source_10s_windows_ge2": 56,
+      "multi_source_10s_windows_ge3": 6,
+      "all_scanning_10s_windows": 111,
+      "benign_only_10s_windows": 1437,
+      "attack_flows": 3841,
+      "benign_flows": 554187
+    },
+    {
+      "destination": "192.168.35.108",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 104,
+      "multi_source_10s_windows_ge3": 4,
+      "all_scanning_10s_windows": 153,
+      "benign_only_10s_windows": 37,
+      "attack_flows": 2150,
+      "benign_flows": 1678
+    },
+    {
+      "destination": "192.168.35.135",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 102,
+      "multi_source_10s_windows_ge3": 6,
+      "all_scanning_10s_windows": 150,
+      "benign_only_10s_windows": 40,
+      "attack_flows": 2154,
+      "benign_flows": 1670
+    },
+    {
+      "destination": "192.168.35.80",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 102,
+      "multi_source_10s_windows_ge3": 5,
+      "all_scanning_10s_windows": 155,
+      "benign_only_10s_windows": 35,
+      "attack_flows": 2007,
+      "benign_flows": 1627
+    },
+    {
+      "destination": "192.168.35.92",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 101,
+      "multi_source_10s_windows_ge3": 6,
+      "all_scanning_10s_windows": 153,
+      "benign_only_10s_windows": 37,
+      "attack_flows": 2144,
+      "benign_flows": 1639
+    },
+    {
+      "destination": "192.168.35.106",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 100,
+      "multi_source_10s_windows_ge3": 5,
+      "all_scanning_10s_windows": 153,
+      "benign_only_10s_windows": 38,
+      "attack_flows": 2197,
+      "benign_flows": 1698
+    },
+    {
+      "destination": "192.168.35.117",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 100,
+      "multi_source_10s_windows_ge3": 5,
+      "all_scanning_10s_windows": 149,
+      "benign_only_10s_windows": 42,
+      "attack_flows": 2241,
+      "benign_flows": 1574
+    },
+    {
+      "destination": "192.168.35.51",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 100,
+      "multi_source_10s_windows_ge3": 1,
+      "all_scanning_10s_windows": 152,
+      "benign_only_10s_windows": 38,
+      "attack_flows": 2009,
+      "benign_flows": 1809
+    },
+    {
+      "destination": "192.168.35.85",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 100,
+      "multi_source_10s_windows_ge3": 7,
+      "all_scanning_10s_windows": 153,
+      "benign_only_10s_windows": 37,
+      "attack_flows": 2219,
+      "benign_flows": 1591
+    },
+    {
+      "destination": "192.168.35.101",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 99,
+      "multi_source_10s_windows_ge3": 7,
+      "all_scanning_10s_windows": 152,
+      "benign_only_10s_windows": 39,
+      "attack_flows": 2242,
+      "benign_flows": 1578
+    },
+    {
+      "destination": "192.168.35.234",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 99,
+      "multi_source_10s_windows_ge3": 5,
+      "all_scanning_10s_windows": 151,
+      "benign_only_10s_windows": 39,
+      "attack_flows": 1991,
+      "benign_flows": 1741
+    },
+    {
+      "destination": "192.168.35.50",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 99,
+      "multi_source_10s_windows_ge3": 5,
+      "all_scanning_10s_windows": 148,
+      "benign_only_10s_windows": 41,
+      "attack_flows": 2326,
+      "benign_flows": 1376
+    },
+    {
+      "destination": "192.168.35.94",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 99,
+      "multi_source_10s_windows_ge3": 4,
+      "all_scanning_10s_windows": 155,
+      "benign_only_10s_windows": 35,
+      "attack_flows": 2105,
+      "benign_flows": 1698
+    },
+    {
+      "destination": "192.168.35.107",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 98,
+      "multi_source_10s_windows_ge3": 4,
+      "all_scanning_10s_windows": 152,
+      "benign_only_10s_windows": 38,
+      "attack_flows": 2029,
+      "benign_flows": 1637
+    },
+    {
+      "destination": "192.168.35.127",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 98,
+      "multi_source_10s_windows_ge3": 5,
+      "all_scanning_10s_windows": 150,
+      "benign_only_10s_windows": 41,
+      "attack_flows": 2110,
+      "benign_flows": 1590
+    },
+    {
+      "destination": "192.168.35.131",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 98,
+      "multi_source_10s_windows_ge3": 7,
+      "all_scanning_10s_windows": 149,
+      "benign_only_10s_windows": 43,
+      "attack_flows": 2206,
+      "benign_flows": 1595
+    },
+    {
+      "destination": "192.168.35.133",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 98,
+      "multi_source_10s_windows_ge3": 7,
+      "all_scanning_10s_windows": 148,
+      "benign_only_10s_windows": 43,
+      "attack_flows": 2136,
+      "benign_flows": 1672
+    },
+    {
+      "destination": "192.168.35.149",
+      "eligible_15min_blocks": 1,
+      "blocks_with_any_multi_source": 3,
+      "multi_source_10s_windows_ge2": 98,
+      "multi_source_10s_windows_ge3": 6,
+      "all_scanning_10s_windows": 153,
+      "benign_only_10s_windows": 38,
+      "attack_flows": 2126,
+      "benign_flows": 1652
+    }
+  ]
+}

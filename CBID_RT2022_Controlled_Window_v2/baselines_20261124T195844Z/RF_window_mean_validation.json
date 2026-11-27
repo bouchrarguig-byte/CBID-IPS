@@ -1,0 +1,268 @@
+{
+  "model": "RF_window_mean",
+  "partition": "validation",
+  "n_windows": 1768,
+  "accuracy": 0.996606334841629,
+  "macro_F1_all_12_classes": 0.7800523287764505,
+  "macro_F1_eligible_classes": 0.8509661768470369,
+  "weighted_F1": 0.9960469938335322,
+  "MCC": 0.9916283588776091,
+  "training_seconds": 0.4043235149983957,
+  "per_class": {
+    "ARP_poisioning": {
+      "precision": 0.957983193277311,
+      "recall": 1.0,
+      "f1-score": 0.9785407725321889,
+      "support": 114.0
+    },
+    "DDOS_Slowloris": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1-score": 0.9333333333333333,
+      "support": 8.0
+    },
+    "DOS_SYN_Hping": {
+      "precision": 1.0,
+      "recall": 0.9992603550295858,
+      "f1-score": 0.9996300406955235,
+      "support": 1352.0
+    },
+    "MQTT_Publish": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 62.0
+    },
+    "Metasploit_Brute_Force_SSH": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "NMAP_FIN_SCAN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "NMAP_OS_DETECTION": {
+      "precision": 0.967741935483871,
+      "recall": 1.0,
+      "f1-score": 0.9836065573770492,
+      "support": 30.0
+    },
+    "NMAP_TCP_scan": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9655172413793104,
+      "support": 15.0
+    },
+    "NMAP_UDP_SCAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 38.0
+    },
+    "NMAP_XMAS_TREE_SCAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "Thing_Speak": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 115.0
+    },
+    "Wipro_bulb": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "accuracy": 0.996606334841629,
+    "macro avg": {
+      "precision": 0.8271437607300985,
+      "recall": 0.7617439184746878,
+      "f1-score": 0.7800523287764505,
+      "support": 1768.0
+    },
+    "weighted avg": {
+      "precision": 0.9961777953043719,
+      "recall": 0.996606334841629,
+      "f1-score": 0.9960469938335322,
+      "support": 1768.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      114,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1351,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      62,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      115,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ]
+}

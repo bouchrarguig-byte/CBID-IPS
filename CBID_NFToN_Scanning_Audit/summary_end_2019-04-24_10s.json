@@ -1,0 +1,87 @@
+{
+  "purpose": "Exploratory, NOT a finished leak-free validation or proof of coordination",
+  "archive": "/home/experimenter/Downloads/02934b58528a226b_NFV3DATA-A11964_A11964.zip",
+  "date_utc": "2019-04-24",
+  "time_field": "FLOW_END_MILLISECONDS",
+  "window_seconds": 10,
+  "destinations": [
+    "192.168.1.31",
+    "192.168.1.32"
+  ],
+  "counters": {
+    "all_rows": 27520260,
+    "matching_destination_all_days": 2692346,
+    "selected_rows": 321242
+  },
+  "observed_labels_at_selected_destinations_day": {
+    "0 / benign": 278748,
+    "1 / scanning": 42494
+  },
+  "summaries": {
+    "192.168.1.31": {
+      "windows_total": 573,
+      "attack_windows": 223,
+      "benign_only_windows": 350,
+      "mixed_windows": 221,
+      "windows_multi_source_ge2": 159,
+      "windows_multi_source_ge5": 55,
+      "max_simultaneous_scanning_sources": 7,
+      "chronological_thirds_diagnostic_only": [
+        {
+          "windows": 191,
+          "positive_windows": 147,
+          "negative_windows": 44,
+          "start_utc": "2019-04-24T00:49:00+00:00",
+          "end_utc": "2019-04-24T03:51:30+00:00"
+        },
+        {
+          "windows": 191,
+          "positive_windows": 55,
+          "negative_windows": 136,
+          "start_utc": "2019-04-24T03:51:40+00:00",
+          "end_utc": "2019-04-24T05:24:40+00:00"
+        },
+        {
+          "windows": 191,
+          "positive_windows": 21,
+          "negative_windows": 170,
+          "start_utc": "2019-04-24T05:24:50+00:00",
+          "end_utc": "2019-04-24T23:22:20+00:00"
+        }
+      ]
+    },
+    "192.168.1.32": {
+      "windows_total": 455,
+      "attack_windows": 219,
+      "benign_only_windows": 236,
+      "mixed_windows": 211,
+      "windows_multi_source_ge2": 134,
+      "windows_multi_source_ge5": 49,
+      "max_simultaneous_scanning_sources": 7,
+      "chronological_thirds_diagnostic_only": [
+        {
+          "windows": 151,
+          "positive_windows": 113,
+          "negative_windows": 38,
+          "start_utc": "2019-04-24T00:01:20+00:00",
+          "end_utc": "2019-04-24T03:45:40+00:00"
+        },
+        {
+          "windows": 152,
+          "positive_windows": 60,
+          "negative_windows": 92,
+          "start_utc": "2019-04-24T03:45:50+00:00",
+          "end_utc": "2019-04-24T05:15:00+00:00"
+        },
+        {
+          "windows": 152,
+          "positive_windows": 46,
+          "negative_windows": 106,
+          "start_utc": "2019-04-24T05:15:10+00:00",
+          "end_utc": "2019-04-24T06:58:30+00:00"
+        }
+      ]
+    }
+  },
+  "leakage_warning": "Do not use *_META (host identity or UTC time) or *_AUDIT_ONLY (label-derived) as predictive features. Use labels only as targets. Split by blocked time/host before all fitting and tuning; avoid future information at prediction time."
+}

@@ -1,0 +1,14 @@
+{
+  "verdict": "NO_RELATIONAL_ADVANTAGE_ON_VALIDATION",
+  "AP_real": 0.2722345799100799,
+  "AP_local_degree": 0.30922372168732737,
+  "AP_random_nulls": [
+    0.2933790502807905,
+    0.27859256715489195,
+    0.3074194597379971
+  ],
+  "AP_gain_real_minus_degree": -0.03698914177724749,
+  "AP_gain_real_minus_best_null": -0.03518487982791724,
+  "independent_test_performed": false,
+  "meaning": "Developmental screening only; cannot substantiate publication claims."
+}

@@ -1,0 +1,19 @@
+{
+  "study": "Exploratory revised protocol after seeing V3 support; NOT preregistered",
+  "code_version": "V3.1",
+  "development_day": "2019-04-25",
+  "sealed_day_C": "2019-04-26",
+  "attack": "ddos",
+  "train_start_utc": "2019-04-25T14:24:00Z",
+  "train_cal_boundary_utc": "2019-04-25T17:36:00Z",
+  "cal_B_boundary_utc": "2019-04-25T19:12:00Z",
+  "embargo_seconds": 120,
+  "bin_seconds": 10,
+  "calibration_FPR_target": 0.01,
+  "GO_min_coord_windows": 200,
+  "GO_min_headroom": 0.1,
+  "reason_for_revision": "V3 first 60% of 25-Apr had zero DDoS; its calibration window contained both classes",
+  "B_used_for_model_selection": false,
+  "B_coarse_label_support_previously_examined": true,
+  "C_data_or_labels_read": false
+}

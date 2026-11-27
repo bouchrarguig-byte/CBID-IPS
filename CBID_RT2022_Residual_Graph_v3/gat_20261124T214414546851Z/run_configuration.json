@@ -1,0 +1,48 @@
+{
+  "utc": "20261124T214414546851Z",
+  "python": "3.12.3",
+  "input_csv_sha256": "0540a21f62e735583a0388980d6f95cb78598b19a0d12f05a90170b43374eb61",
+  "arguments": {
+    "csv": "/home/experimenter/Downloads/telechargement 1/telech/RT-IoT2022/rt_iot2022_prepared.csv",
+    "out": "/home/experimenter/Downloads/CBID_RT2022_Residual_Graph_v3",
+    "mode": "gat",
+    "window_size": 10,
+    "stride": 10,
+    "seed": 42,
+    "seeds": [
+      42
+    ],
+    "variants": [
+      "selfloops",
+      "behavioral_knn",
+      "shuffled_knn"
+    ],
+    "k": 2,
+    "min_val_windows": 5,
+    "hidden": 64,
+    "heads": 4,
+    "epochs": 18,
+    "patience": 5,
+    "lr": 0.0003,
+    "dropout": 0.3,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "balance_sampler": false,
+    "cpu": false,
+    "deterministic": false,
+    "eval_test": false
+  },
+  "genuine_interdevice_graph": false,
+  "previous_test_already_seen": true,
+  "validation_selection_posthoc_after_previous_exploration": true,
+  "architecture": "New true-residual 3-layer edge-aware GATv2, never call this the original unchanged architecture",
+  "graph_mode": "behavioral_knn defined by per-window standardized-feature cosine, not source/destination communications",
+  "edge_counterfactual": "shuffled_knn has same weights/degree as real behavioral_knn but random topology",
+  "no_claims": [
+    "host collaboration",
+    "temporal prediction",
+    "IPS actions",
+    "new independent test",
+    "significant improvement without evidence"
+  ]
+}

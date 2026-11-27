@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "28ddf8fb93986db0fa99ee5f79378e3c4ec777b8358c6e9033f78a47ea0b8e2e",
+  "replicates": 10000,
+  "confidence_level": 0.99375,
+  "correction": "Bonferroni",
+  "retraining": false,
+  "recalibration": false
+}

@@ -1,0 +1,82 @@
+{
+  "stage": "frozen retrospective transfer; E/F previously evaluated; not independent confirmation",
+  "selection": "highest mean suppression among 3-seed feasible D grid; TCAG comparator selected by same criterion within TCAG",
+  "source_archive_sha256": "577772d6c5d6e21a367a0462cb65b9912169c980f5888d897753a846def7b57c",
+  "source_hashes": {
+    "cbid_exp11_3_grid.py": "a1be25a68c41503159ee466b0ca372f14224a226fc164ee1fab7f1b351e3d94a",
+    "cbid_exp11_2_risk.py": "25d623d81691785326fba8f74b63914b3c092993715ed41a776c20d4965958a5",
+    "cbid_exp11_closed_loop.py": "4d98421298c81278d5df9686aa5511e3c53f03ecf061746e3c455e3e3fb86d20"
+  },
+  "risk_artifacts": {
+    "42_M0_local": "ed068c9f0ded16c57ed9d8bc3d58d26afd10cc3ded6e2dae9d6ffd88f8df3bcc",
+    "42_G1_real_peer": "a635bc37792c1c5683c743250c7339e7509ac1baa9b8b4ce36de3120435e8c39",
+    "43_M0_local": "12bab24a8344cb21d3afb59182c9d8c0ef3af475f6709b27909cf6a161f2123d",
+    "43_G1_real_peer": "21bbd38179d3996ee1b144f85890fa80381fdcb7b8d2fb3f34cc2dbf359e8159",
+    "44_M0_local": "28e5005daeb0b02f24af0fb6b2ccf0f0cc97d10c5661dc389009432c84dd212f",
+    "44_G1_real_peer": "3f11bdf5a71ca4812defda04335b2368c7be72d16ae1c1b72cefc350e0a287b2"
+  },
+  "model_freeze_sha256": "92198e78d35047750afc34edf96c9f482a81a746c302b7170fc8a857cbc2952e",
+  "policy_freeze_sha256": "d148b49e190382565810ca580d598a853fe769ad50a841250f306becc2aaf023",
+  "days": {
+    "E": {
+      "date": "2019-04-28",
+      "windows": 62068,
+      "attack": 113505,
+      "benign": 215978
+    },
+    "F": {
+      "date": "2019-04-29",
+      "windows": 25109,
+      "attack": 99863,
+      "benign": 1958274
+    }
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "rate": 0.01,
+  "cap": 10.0,
+  "budget": 0.01,
+  "window_seconds": 10,
+  "configurations": [
+    {
+      "model": "M0_local",
+      "policy": "allow",
+      "penalty": 10,
+      "role": "no action control"
+    },
+    {
+      "model": "M0_local",
+      "policy": "score_cic",
+      "penalty": 10,
+      "role": "score baseline"
+    },
+    {
+      "model": "M0_local",
+      "policy": "risk_gated_cic",
+      "penalty": 5,
+      "role": "primary selected policy"
+    },
+    {
+      "model": "G1_real_peer",
+      "policy": "allow",
+      "penalty": 10,
+      "role": "no action control"
+    },
+    {
+      "model": "G1_real_peer",
+      "policy": "score_cic",
+      "penalty": 10,
+      "role": "score baseline"
+    },
+    {
+      "model": "G1_real_peer",
+      "policy": "risk_gated_cic",
+      "penalty": 20,
+      "role": "TCAG comparator"
+    }
+  ],
+  "decision_rule": "primary positive suppression on both days and benign disruption <= 0.01 in all six primary runs; compare suppression with score baseline separately; no retuning; no live IPS claim"
+}

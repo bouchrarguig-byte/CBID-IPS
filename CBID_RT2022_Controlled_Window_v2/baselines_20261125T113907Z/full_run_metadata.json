@@ -1,0 +1,120 @@
+{
+  "date_utc": "20261125T113907Z",
+  "software_python": "3.12.3",
+  "command_arguments": {
+    "csv": "/home/experimenter/Downloads/telechargement 1/telech/RT-IoT2022/rt_iot2022_prepared.csv",
+    "out": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2",
+    "mode": "baselines",
+    "window_size": 10,
+    "stride": 10,
+    "seed": 44,
+    "trees": 150,
+    "include_xgb": true,
+    "jobs": 8,
+    "hidden": 64,
+    "heads": 4,
+    "epochs": 18,
+    "patience": 5,
+    "lr": 0.0003,
+    "batch_size": 32,
+    "dropout": 0.3,
+    "balance_sampler": false,
+    "cpu": false
+  },
+  "protocol": {
+    "input_sha256": "0540a21f62e735583a0388980d6f95cb78598b19a0d12f05a90170b43374eb61",
+    "input_path": "/home/experimenter/Downloads/telechargement 1/telech/RT-IoT2022/rt_iot2022_prepared.csv",
+    "n_raw": 123117,
+    "n_clean": 117909,
+    "ambiguous_feature_records_removed": 128,
+    "duplicate_feature_records_removed": 5080,
+    "n_class_runs_raw": 12,
+    "n_original_classes": 12,
+    "classes": [
+      "ARP_poisioning",
+      "DDOS_Slowloris",
+      "DOS_SYN_Hping",
+      "MQTT_Publish",
+      "Metasploit_Brute_Force_SSH",
+      "NMAP_FIN_SCAN",
+      "NMAP_OS_DETECTION",
+      "NMAP_TCP_scan",
+      "NMAP_UDP_SCAN",
+      "NMAP_XMAS_TREE_SCAN",
+      "Thing_Speak",
+      "Wipro_bulb"
+    ],
+    "number_of_features_excluding_no": 83,
+    "window_size": 10,
+    "stride": 10,
+    "window_majority_labels_from_current_split_only": true,
+    "overlap_records_within_partition_possible": false,
+    "between_partition_record_overlap": 0,
+    "feature_hash_overlap_between_partitions": 0,
+    "mixed_label_windows_per_split": {
+      "train": 11,
+      "validation": 10,
+      "test": 8
+    },
+    "windows_crossing_original_label_runs_per_split": {
+      "train": 11,
+      "validation": 10,
+      "test": 8
+    },
+    "fraction_windows_mixing_classes": {
+      "train": 0.00133285,
+      "validation": 0.00565611,
+      "test": 0.00452233
+    },
+    "window_construction_uses_labels": false,
+    "windows_majority_labels_used_only_as_targets": true,
+    "window_homogeneity_due_to_original_class_sorted_file": true,
+    "eligible_window_labels_selected_using_train_validation_ONLY": [
+      "ARP_poisioning",
+      "DDOS_Slowloris",
+      "DOS_SYN_Hping",
+      "MQTT_Publish",
+      "NMAP_FIN_SCAN",
+      "NMAP_OS_DETECTION",
+      "NMAP_TCP_scan",
+      "NMAP_UDP_SCAN",
+      "NMAP_XMAS_TREE_SCAN",
+      "Thing_Speak",
+      "Wipro_bulb"
+    ],
+    "ineligible_window_labels": [
+      "Metasploit_Brute_Force_SSH"
+    ],
+    "partitions": {
+      "train": {
+        "records": 82533,
+        "windows": 8253,
+        "labels_with_windows": 12
+      },
+      "validation": {
+        "records": 17684,
+        "windows": 1768,
+        "labels_with_windows": 11
+      },
+      "test": {
+        "records": 17692,
+        "windows": 1769,
+        "labels_with_windows": 11
+      }
+    },
+    "limitations": [
+      "Class-run-aware partitioning is label-stratified, while window construction is label-blind; CSV ordering remains class-sorted.",
+      "No timestamps, no device identities; graph nodes are rows, not IoT devices.",
+      "Deduplication occurs on entire dataset, without using test predictions; report this preprocessing.",
+      "Repeated-feature detection uses 64-bit Pandas hash; collisions theoretically possible.",
+      "No SMOTE; no synthetic/padded windows.",
+      "Window rarity makes several labels unassessable at W=10; full multiclass evaluation stays at record level.",
+      "Original dataset has been explored previously: test is not truly blind."
+    ]
+  },
+  "mode": "baselines",
+  "model_hyperparameters_fixed_before_current_run": true,
+  "historical_runs_already_consulted": true,
+  "not_preregistered_or_blind": true,
+  "original_f2_smote_scripts_reused_as_architecture_reference_not_modified": true
+}

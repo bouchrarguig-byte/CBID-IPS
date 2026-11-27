@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "variant": "behavioral_knn",
+  "selected_epoch": 6,
+  "validation_selection_macroF1": 0.9883577313370613,
+  "training_seconds": 36.04654823799865,
+  "n_parameters": 258156,
+  "checkpoints_selected_using_test": false
+}

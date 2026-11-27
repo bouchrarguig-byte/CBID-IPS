@@ -1,0 +1,268 @@
+{
+  "model": "RF_window_mean",
+  "partition": "validation",
+  "n_windows": 1768,
+  "accuracy": 0.9949095022624435,
+  "macro_F1_all_12_classes": 0.8086396183835811,
+  "macro_F1_eligible_classes": 0.8821523109639067,
+  "weighted_F1": 0.9946347145772847,
+  "MCC": 0.9874536484702867,
+  "training_seconds": 0.26473992000137514,
+  "per_class": {
+    "ARP_poisioning": {
+      "precision": 0.9743589743589743,
+      "recall": 1.0,
+      "f1-score": 0.987012987012987,
+      "support": 114.0
+    },
+    "DDOS_Slowloris": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1-score": 0.9333333333333333,
+      "support": 8.0
+    },
+    "DOS_SYN_Hping": {
+      "precision": 1.0,
+      "recall": 0.9992603550295858,
+      "f1-score": 0.9996300406955235,
+      "support": 1352.0
+    },
+    "MQTT_Publish": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 62.0
+    },
+    "Metasploit_Brute_Force_SSH": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "NMAP_FIN_SCAN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "NMAP_OS_DETECTION": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 30.0
+    },
+    "NMAP_TCP_scan": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9655172413793104,
+      "support": 15.0
+    },
+    "NMAP_UDP_SCAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 38.0
+    },
+    "NMAP_XMAS_TREE_SCAN": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 30.0
+    },
+    "Thing_Speak": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 115.0
+    },
+    "Wipro_bulb": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "accuracy": 0.9949095022624435,
+    "macro avg": {
+      "precision": 0.8173076923076924,
+      "recall": 0.8034105851413544,
+      "f1-score": 0.8086396183835811,
+      "support": 1768.0
+    },
+    "weighted avg": {
+      "precision": 0.9949530107901149,
+      "recall": 0.9949095022624435,
+      "f1-score": 0.9946347145772847,
+      "support": 1768.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      114,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1351,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      62,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      25,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      115,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ]
+}

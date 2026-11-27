@@ -1,0 +1,7 @@
+model,policy,rate,penalty,n,attack_mean,attack_sd,benign_mean,benign_max,budget_passes,mean_actions,all_requested_seeds,feasible,pareto_feasible
+G1_real_peer,score_cic,0.01,10,3,5.873456382244542e-06,1.0173124870087234e-05,0.0002916963764827899,0.000731555991813981,3,22.666666666666668,True,True,True
+G1_real_peer,allow,0.01,10,3,0.0,0.0,0.0,0.0,3,0.0,True,True,True
+M0_local,allow,0.01,10,3,0.0,0.0,0.0,0.0,3,0.0,True,True,True
+G1_real_peer,risk_gated_cic,0.01,20,3,0.0,0.0,6.173468285350051e-06,1.8520404856050152e-05,3,1.3333333333333333,True,True,False
+M0_local,risk_gated_cic,0.01,5,3,0.0,0.0,3.3954075569425284e-05,5.093111335413792e-05,3,0.6666666666666666,True,True,False
+M0_local,score_cic,0.01,10,3,0.0,0.0,3.3954075569425284e-05,5.093111335413792e-05,3,0.6666666666666666,True,True,False

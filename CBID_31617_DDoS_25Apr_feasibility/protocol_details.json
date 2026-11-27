@@ -1,0 +1,18 @@
+{
+  "study": "exploratory DDoS development feasibility; NOT independent test",
+  "dataset": "NF-ToN-IoT-v3",
+  "development_day": "2019-04-25",
+  "sealed_test_day": "2019-04-26",
+  "attack": "ddos",
+  "time_bin_seconds": 10,
+  "split_rule": "fixed 60% / 20% / 20% of UTC clock day independent of labels and observed volumes",
+  "train_cal_boundary_utc": "2019-04-25T14:24:00+00:00",
+  "cal_B_boundary_utc": "2019-04-25T19:12:00+00:00",
+  "embargo_seconds": 120,
+  "threshold_FPR_calibration": 0.01,
+  "min_coordinated_B_windows": 200,
+  "min_headroom": 0.1,
+  "selected_attack_after_reviewing_development_day_labels": true,
+  "historical_scanning_V8_models_not_evaluable_as_DDoS_detectors": true,
+  "test_day_opened": false
+}

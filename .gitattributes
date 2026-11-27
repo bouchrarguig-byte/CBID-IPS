@@ -1,0 +1,2 @@
+# Preserve exact artifact/source bytes required by historical SHA-256 checks.
+* -text

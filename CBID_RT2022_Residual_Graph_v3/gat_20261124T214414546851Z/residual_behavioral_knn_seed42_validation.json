@@ -1,0 +1,293 @@
+{
+  "model": "residual_behavioral_knn_seed42",
+  "partition": "validation",
+  "n_windows": 1768,
+  "accuracy": 0.9971719457013575,
+  "macro_F1_all_12_classes": 0.7829349651694626,
+  "macro_F1_eligible_classes": 0.9883577313370613,
+  "weighted_F1": 0.9966031782774266,
+  "MCC": 0.993010829596805,
+  "training_seconds": null,
+  "per_class": {
+    "ARP_poisioning": {
+      "precision": 0.9741379310344828,
+      "recall": 0.9912280701754386,
+      "f1-score": 0.9826086956521739,
+      "support": 114.0
+    },
+    "DDOS_Slowloris": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1-score": 0.9333333333333333,
+      "support": 8.0
+    },
+    "DOS_SYN_Hping": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1352.0
+    },
+    "MQTT_Publish": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 62.0
+    },
+    "Metasploit_Brute_Force_SSH": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "NMAP_FIN_SCAN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "NMAP_OS_DETECTION": {
+      "precision": 0.967741935483871,
+      "recall": 1.0,
+      "f1-score": 0.9836065573770492,
+      "support": 30.0
+    },
+    "NMAP_TCP_scan": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 15.0
+    },
+    "NMAP_UDP_SCAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 38.0
+    },
+    "NMAP_XMAS_TREE_SCAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "Thing_Speak": {
+      "precision": 0.9913793103448276,
+      "recall": 1.0,
+      "f1-score": 0.9956709956709957,
+      "support": 115.0
+    },
+    "Wipro_bulb": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "accuracy": 0.9971719457013575,
+    "macro avg": {
+      "precision": 0.8277715980719318,
+      "recall": 0.7666301169590644,
+      "f1-score": 0.7829349651694626,
+      "support": 1768.0
+    },
+    "weighted avg": {
+      "precision": 0.9966587120430442,
+      "recall": 0.9971719457013575,
+      "f1-score": 0.9966031782774266,
+      "support": 1768.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      113,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1352,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      62,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      115,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "macro_F1_test_present_labels_descriptive_only": 0.8541108710939592,
+  "present_classes": [
+    "ARP_poisioning",
+    "DDOS_Slowloris",
+    "DOS_SYN_Hping",
+    "MQTT_Publish",
+    "NMAP_FIN_SCAN",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "Thing_Speak",
+    "Wipro_bulb"
+  ],
+  "selection_labels": [
+    "ARP_poisioning",
+    "DDOS_Slowloris",
+    "DOS_SYN_Hping",
+    "MQTT_Publish",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "Thing_Speak"
+  ]
+}

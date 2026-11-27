@@ -1,0 +1,1136 @@
+[
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M0_local",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M2_context",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G1_real_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G0_no_message",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 12,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "eligible": false,
+    "counts": {
+      "fit": {
+        "positive": 425,
+        "negative": 763
+      },
+      "threshold": {
+        "positive": 0,
+        "negative": 0
+      },
+      "test": {
+        "positive": 7605,
+        "negative": 29671
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 42,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 43,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  },
+  {
+    "fold": 18,
+    "seed": 44,
+    "xgb": "M3_full",
+    "graph": "G2_shuffled_peer",
+    "eligible": true,
+    "counts": {
+      "fit": {
+        "positive": 654,
+        "negative": 839
+      },
+      "threshold": {
+        "positive": 3377,
+        "negative": 4180
+      },
+      "test": {
+        "positive": 16092,
+        "negative": 22696
+      }
+    }
+  }
+]

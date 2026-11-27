@@ -1,0 +1,3 @@
+RT_IoT2022: macroF1_common10; delta_message=+0.000950; delta_structure=UNAVAILABLE; semantics=False; split_confirmed=True; independent=False; result=RELATIONAL BENEFIT NOT ESTABLISHED
+NF_ToN_IoT_v3: average_precision; delta_message=-0.011400; delta_structure=-0.003200; semantics=True; split_confirmed=False; independent=False; result=RELATIONAL BENEFIT NOT ESTABLISHED
+DDoS headroom: 99/8900=1.1124%; source_sets=1; no-go feasibility audit only

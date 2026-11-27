@@ -1,0 +1,21 @@
+seed,comparison,macroF1_common10_difference
+11,DeepSets_mean minus GATv2_selfloops,-0.051786522824820436
+22,DeepSets_mean minus GATv2_selfloops,-0.06534667204297617
+33,DeepSets_mean minus GATv2_selfloops,-0.05676745003038697
+42,DeepSets_mean minus GATv2_selfloops,-0.019490060128912412
+44,DeepSets_mean minus GATv2_selfloops,-0.011417073379570097
+11,DeepSets_mean minus GATv2_uppertriangular,-0.0735291091684922
+22,DeepSets_mean minus GATv2_uppertriangular,-0.08495488906905191
+33,DeepSets_mean minus GATv2_uppertriangular,-0.06962674356325149
+42,DeepSets_mean minus GATv2_uppertriangular,-0.02297761785708341
+44,DeepSets_mean minus GATv2_uppertriangular,0.04152951907046354
+11,DeepSets_mean minus XGB_window_mean,-0.036082100924403226
+22,DeepSets_mean minus XGB_window_mean,-0.049642250142558964
+33,DeepSets_mean minus XGB_window_mean,-0.05426608569209801
+42,DeepSets_mean minus XGB_window_mean,-0.05003285490219389
+44,DeepSets_mean minus XGB_window_mean,0.006239586900041005
+11,DeepSets_mean minus RF_window_mean,-0.03005070561975609
+22,DeepSets_mean minus RF_window_mean,-0.06467140432397256
+33,DeepSets_mean minus RF_window_mean,-0.0244352740981163
+42,DeepSets_mean minus RF_window_mean,-0.04871674431283146
+44,DeepSets_mean minus RF_window_mean,0.047245477548738535

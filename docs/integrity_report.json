@@ -1,0 +1,10 @@
+{
+  "frozen_artifacts_verified": 37,
+  "frozen_sources_verified": 4,
+  "policy_sources_verified": 2,
+  "final_protocol_sha256": "28ddf8fb93986db0fa99ee5f79378e3c4ec777b8358c6e9033f78a47ea0b8e2e",
+  "ef_execution_script_verified": true,
+  "syntax_errors": [],
+  "redacted_result_files": 50,
+  "missing_policy_calibration_predictions": true
+}

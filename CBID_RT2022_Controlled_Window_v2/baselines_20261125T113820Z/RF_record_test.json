@@ -1,0 +1,95 @@
+{
+  "model": "RF_record",
+  "partition": "test",
+  "n_records": 17692,
+  "accuracy": 0.9938955460094958,
+  "macro_F1_all_12_classes": 0.8921922901126158,
+  "MCC": 0.9849957554220045,
+  "per_class": {
+    "ARP_poisioning": {
+      "precision": 0.9274061990212071,
+      "recall": 0.994750656167979,
+      "f1-score": 0.9598986914309835,
+      "support": 1143.0
+    },
+    "DDOS_Slowloris": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 80.0
+    },
+    "DOS_SYN_Hping": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 13514.0
+    },
+    "MQTT_Publish": {
+      "precision": 1.0,
+      "recall": 0.9903536977491961,
+      "f1-score": 0.9951534733441034,
+      "support": 622.0
+    },
+    "Metasploit_Brute_Force_SSH": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "NMAP_FIN_SCAN": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 5.0
+    },
+    "NMAP_OS_DETECTION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 300.0
+    },
+    "NMAP_TCP_scan": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 151.0
+    },
+    "NMAP_UDP_SCAN": {
+      "precision": 0.9921875,
+      "recall": 0.9819587628865979,
+      "f1-score": 0.9870466321243523,
+      "support": 388.0
+    },
+    "NMAP_XMAS_TREE_SCAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 302.0
+    },
+    "Thing_Speak": {
+      "precision": 0.9896013864818024,
+      "recall": 0.9947735191637631,
+      "f1-score": 0.9921807124239791,
+      "support": 1148.0
+    },
+    "Wipro_bulb": {
+      "precision": 0.96875,
+      "recall": 0.9393939393939394,
+      "f1-score": 0.9538461538461539,
+      "support": 33.0
+    },
+    "accuracy": 0.9938955460094958,
+    "macro avg": {
+      "precision": 0.8926065349030284,
+      "recall": 0.8945469923912341,
+      "f1-score": 0.8921922901126158,
+      "support": 17692.0
+    },
+    "weighted avg": {
+      "precision": 0.989836753551267,
+      "recall": 0.9938955460094958,
+      "f1-score": 0.9917829605996804,
+      "support": 17692.0
+    }
+  }
+}

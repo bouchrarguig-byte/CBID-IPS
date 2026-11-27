@@ -1,0 +1,87 @@
+{
+  "ARP_poisioning": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 115.0
+  },
+  "DDOS_Slowloris": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8.0
+  },
+  "DOS_SYN_Hping": {
+    "precision": 0.9992603550295858,
+    "recall": 1.0,
+    "f1-score": 0.9996300406955235,
+    "support": 1351.0
+  },
+  "MQTT_Publish": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 62.0
+  },
+  "Metasploit_Brute_Force_SSH": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "NMAP_FIN_SCAN": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "NMAP_OS_DETECTION": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30.0
+  },
+  "NMAP_TCP_scan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15.0
+  },
+  "NMAP_UDP_SCAN": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39.0
+  },
+  "NMAP_XMAS_TREE_SCAN": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30.0
+  },
+  "Thing_Speak": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 115.0
+  },
+  "Wipro_bulb": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3.0
+  },
+  "accuracy": 0.9988694177501414,
+  "macro avg": {
+    "precision": 0.8332716962524654,
+    "recall": 0.8229166666666666,
+    "f1-score": 0.8277469478357381,
+    "support": 1769.0
+  },
+  "weighted avg": {
+    "precision": 0.9988698358648787,
+    "recall": 0.9988694177501414,
+    "f1-score": 0.9988506792799994,
+    "support": 1769.0
+  }
+}

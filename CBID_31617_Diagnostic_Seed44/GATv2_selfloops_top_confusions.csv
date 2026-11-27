@@ -1,0 +1,3 @@
+true,pred,count
+DDOS_Slowloris,DOS_SYN_Hping,1
+Metasploit_Brute_Force_SSH,NMAP_FIN_SCAN,1

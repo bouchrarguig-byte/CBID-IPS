@@ -1,0 +1,322 @@
+[
+  {
+    "seed": 11,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/GATv2_uppertriangular_validation.json",
+    "sha256": "2bacabc400ffd96d3e0f48589c38abb30d300bd3633ca18615508cc92bb8117a"
+  },
+  {
+    "seed": 11,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/GATv2_uppertriangular_validation_pred.csv",
+    "sha256": "05246d8f75f187436518469ed9b6bb37d7c40a9bdf3330b8f3bb625b527ba1c9"
+  },
+  {
+    "seed": 11,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/GATv2_uppertriangular_test.json",
+    "sha256": "c4e1e0a5b093f6b43aafd1599080573119c422991c52c4b09fd187c6ad637479"
+  },
+  {
+    "seed": 11,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/GATv2_uppertriangular_test_pred.csv",
+    "sha256": "03ef75c29645e671dd12a7dbd8e3e60b009d5b26443f378b41845b57b48ae234"
+  },
+  {
+    "seed": 11,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/GATv2_selfloops_validation.json",
+    "sha256": "668bfccb15404a72fa7f9fb79d00a9313afc54caf525cab7fb035e7f296a356b"
+  },
+  {
+    "seed": 11,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/GATv2_selfloops_validation_pred.csv",
+    "sha256": "cd6e3b2c14b1fcd1feb8b730e280ac4403f2f50f89750494446f56124c250d86"
+  },
+  {
+    "seed": 11,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/GATv2_selfloops_test.json",
+    "sha256": "49dda3d9f98a211007d2b25b02c87d00b7d57af52c711c6abde5dc30ce7f6bf1"
+  },
+  {
+    "seed": 11,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z/GATv2_selfloops_test_pred.csv",
+    "sha256": "0c203d97febfa30d0ae318699382766e1d1dbc076366f273077699f966899c86"
+  },
+  {
+    "seed": 22,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/GATv2_uppertriangular_validation.json",
+    "sha256": "446ef97ac4761cc7a4dd7e1b040e28fc4f26778cda15cb4aab13bda66f48969c"
+  },
+  {
+    "seed": 22,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/GATv2_uppertriangular_validation_pred.csv",
+    "sha256": "bf6a7e8c9932e9a978cc2054c268928da47c38ab29fa73bc20ea1ff7666f5f79"
+  },
+  {
+    "seed": 22,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/GATv2_uppertriangular_test.json",
+    "sha256": "7eeef3a354ae920d3459b2b51b7a0dd0d76afa731b848c56648b597b7b32d944"
+  },
+  {
+    "seed": 22,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/GATv2_uppertriangular_test_pred.csv",
+    "sha256": "71571f172d821b3618ab53055d8a77fe3a2f272dc6b7c2ea845cad1146d4137d"
+  },
+  {
+    "seed": 22,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/GATv2_selfloops_validation.json",
+    "sha256": "24dbb8874e9f2a10f9610cf9f9d7bef16ed2e52d7b620cc3f19efe45d5a1c359"
+  },
+  {
+    "seed": 22,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/GATv2_selfloops_validation_pred.csv",
+    "sha256": "cd6e3b2c14b1fcd1feb8b730e280ac4403f2f50f89750494446f56124c250d86"
+  },
+  {
+    "seed": 22,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/GATv2_selfloops_test.json",
+    "sha256": "c448f6f06feda0f69799acca2910eb150655bf64f413a82742ed65939258d83b"
+  },
+  {
+    "seed": 22,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z/GATv2_selfloops_test_pred.csv",
+    "sha256": "0c203d97febfa30d0ae318699382766e1d1dbc076366f273077699f966899c86"
+  },
+  {
+    "seed": 33,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/GATv2_uppertriangular_validation.json",
+    "sha256": "69dd6374385103b1ce8de3cffb8173d1fa16007c7713428ea3ebffedca4d2d0c"
+  },
+  {
+    "seed": 33,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/GATv2_uppertriangular_validation_pred.csv",
+    "sha256": "ce6d29eabc13040b6300465c0822234d6ff9f4c4ff040ff9d8cd2667c6831402"
+  },
+  {
+    "seed": 33,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/GATv2_uppertriangular_test.json",
+    "sha256": "3f188707e48d125b984858a9ad8dd6bc2f62657931882a6cfd4e11b5183a0457"
+  },
+  {
+    "seed": 33,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/GATv2_uppertriangular_test_pred.csv",
+    "sha256": "6343d9d891411510f54387c92e18c4c37a814a80797372e531d1ce3f92ea235d"
+  },
+  {
+    "seed": 33,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/GATv2_selfloops_validation.json",
+    "sha256": "54c731aedf2519836068720c0a6a11c893baaa217b1b9db1c62769ae17f3048f"
+  },
+  {
+    "seed": 33,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/GATv2_selfloops_validation_pred.csv",
+    "sha256": "cd6e3b2c14b1fcd1feb8b730e280ac4403f2f50f89750494446f56124c250d86"
+  },
+  {
+    "seed": 33,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/GATv2_selfloops_test.json",
+    "sha256": "b816c7f74047f0e92a7f96d258d1362f8ab718861bf7433f4c8672d1ad49dedd"
+  },
+  {
+    "seed": 33,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z/GATv2_selfloops_test_pred.csv",
+    "sha256": "277b99bd18231c7d74e5a71715a6bcc7419990f178d5fc9fe684a333504f3aeb"
+  },
+  {
+    "seed": 42,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/GATv2_uppertriangular_validation.json",
+    "sha256": "5f98e3e2bf670688812cb138a7ec1b045ce3a89110f15ed927902335be7538dd"
+  },
+  {
+    "seed": 42,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/GATv2_uppertriangular_validation_pred.csv",
+    "sha256": "99462be441f9bb1505a8e7ed0940fa774edc2bb5f7b2bfff12f0cd9098bd7409"
+  },
+  {
+    "seed": 42,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/GATv2_uppertriangular_test.json",
+    "sha256": "9336d8f4bc76cb105f0502ae22eead66eae7e287c827d62ab9a08112cb9d73f2"
+  },
+  {
+    "seed": 42,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/GATv2_uppertriangular_test_pred.csv",
+    "sha256": "9bb398588dd3f22e077d3c5b2be3cf07e2266abbefca7f282b6ba6e8571bc422"
+  },
+  {
+    "seed": 42,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/GATv2_selfloops_validation.json",
+    "sha256": "5046d67d440646f8cb0d00608b7b76bbc648a1aa17c8932f679a3ebb301f0146"
+  },
+  {
+    "seed": 42,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/GATv2_selfloops_validation_pred.csv",
+    "sha256": "cd6e3b2c14b1fcd1feb8b730e280ac4403f2f50f89750494446f56124c250d86"
+  },
+  {
+    "seed": 42,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/GATv2_selfloops_test.json",
+    "sha256": "f9fbc9b94493c866fb77460e4b14d964e1a9ad204c5c743d11e234071d8fa7c1"
+  },
+  {
+    "seed": 42,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z/GATv2_selfloops_test_pred.csv",
+    "sha256": "ac50d2977d1f72104c24fa5e1c0cd333854ee05463cb325891780b649a595726"
+  },
+  {
+    "seed": 44,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/GATv2_uppertriangular_validation.json",
+    "sha256": "41a61a114822d5a528b0078edd207661b916889db51c80da32869949f35bde09"
+  },
+  {
+    "seed": 44,
+    "variant": "GATv2_uppertriangular",
+    "partition": "validation",
+    "name": "GATv2_uppertriangular_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/GATv2_uppertriangular_validation_pred.csv",
+    "sha256": "99462be441f9bb1505a8e7ed0940fa774edc2bb5f7b2bfff12f0cd9098bd7409"
+  },
+  {
+    "seed": 44,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/GATv2_uppertriangular_test.json",
+    "sha256": "becb1d8d74eabf8681917e3473d6c7930a4c43e5535a9650a527884264cbcc09"
+  },
+  {
+    "seed": 44,
+    "variant": "GATv2_uppertriangular",
+    "partition": "test",
+    "name": "GATv2_uppertriangular_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/GATv2_uppertriangular_test_pred.csv",
+    "sha256": "cc7188f28aa2737fafb85c79b7f95522b42a13bba41665687b68157a9de4e960"
+  },
+  {
+    "seed": 44,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/GATv2_selfloops_validation.json",
+    "sha256": "06b4be1b93e7ce76b0b16f8e4e564e314da3f76383a819102d7a1be7a12a7eeb"
+  },
+  {
+    "seed": 44,
+    "variant": "GATv2_selfloops",
+    "partition": "validation",
+    "name": "GATv2_selfloops_validation_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/GATv2_selfloops_validation_pred.csv",
+    "sha256": "522555b443dfd19d1b54553658a6d89bd8ad8ebbf689d737f8759e975958610b"
+  },
+  {
+    "seed": 44,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test.json",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/GATv2_selfloops_test.json",
+    "sha256": "8a1be7f6811eed3f81382b13204d728fbb260d2ea20cebed7200150bcd624b0c"
+  },
+  {
+    "seed": 44,
+    "variant": "GATv2_selfloops",
+    "partition": "test",
+    "name": "GATv2_selfloops_test_pred.csv",
+    "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z/GATv2_selfloops_test_pred.csv",
+    "sha256": "30b63cc67f25cb61a9b7f28a51cddea8bf9cc3d2dfe06985f04e8da19675d644"
+  }
+]

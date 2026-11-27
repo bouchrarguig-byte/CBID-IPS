@@ -1,0 +1,10 @@
+{
+  "day": "2019-04-27",
+  "model_hash": "92198e78d35047750afc34edf96c9f482a81a746c302b7170fc8a857cbc2952e",
+  "policy_hash": "d148b49e190382565810ca580d598a853fe769ad50a841250f306becc2aaf023",
+  "evaluation_script_sha256": "c0b8c8c7e29a833c373f17b28d8ed8f65bd1f1bd9726a4cf4e9db2a2829953d6",
+  "rule": "frozen thresholds; open-loop completed-flow exposure; no tuning",
+  "primary_model": "G1_real_peer",
+  "primary_horizon_s": 10,
+  "primary_delay_s": 0
+}

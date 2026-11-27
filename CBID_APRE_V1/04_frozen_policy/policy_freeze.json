@@ -1,0 +1,39 @@
+{
+  "calibration_day": "2019-04-26",
+  "candidate_test_day": "2019-04-27",
+  "test_day_accessed": false,
+  "primary_model": "G1_real_peer",
+  "primary_horizon_s": 10,
+  "secondary_horizon_s": 60,
+  "budget": 0.01,
+  "test_delays_s": [
+    0,
+    10
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": [
+    "M0_local",
+    "M1_temporal",
+    "M2_context",
+    "M3_full",
+    "G0_no_message",
+    "G1_real_peer",
+    "G2_shuffled_peer",
+    "G3_context_mlp",
+    "H0_fixed",
+    "H1_fixed",
+    "H2_fixed",
+    "H3_fixed"
+  ],
+  "prediction_sha256": "23160977a168c9cecb9d9cc0f76144f5b05dc11a87416e5cc60db0b7cb34aba1",
+  "thresholds_sha256": "0606d31333cf09ad019538697b95eafdd37430a4de75604a40db947a8f042602",
+  "script_sha256": "36da7725ec06be879b041a93eff52461f91d0f31d969a20af7cdb60a8c955d6b",
+  "audit_script_sha256": "ec08b3b3d09af421381a28bf1732825ffaba9263393ae48b5708fe1dbe1eb235",
+  "original_model_freeze_sha256": "92198e78d35047750afc34edf96c9f482a81a746c302b7170fc8a857cbc2952e",
+  "rule": "threshold per model/seed/horizon; never recalibrate on D; infinity means no action; delays use same threshold",
+  "limitations": "C already inspected; open-loop exposure of completed flows, not actual prevention"
+}

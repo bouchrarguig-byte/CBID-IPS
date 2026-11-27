@@ -1,0 +1,282 @@
+{
+  "model": "DeepSets_mean",
+  "partition": "test",
+  "n_windows": 1769,
+  "accuracy": 0.8394573205200678,
+  "macro_F1_all_12_classes": 0.7667371004324325,
+  "macro_F1_eligible_classes": 0.8364404731990173,
+  "weighted_F1": 0.874014067933375,
+  "MCC": 0.7351928427386425,
+  "training_seconds": 6.716181214998869,
+  "per_class": {
+    "ARP_poisioning": {
+      "precision": 0.2878787878787879,
+      "recall": 0.991304347826087,
+      "f1-score": 0.4461839530332681,
+      "support": 115.0
+    },
+    "DDOS_Slowloris": {
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1-score": 0.875,
+      "support": 8.0
+    },
+    "DOS_SYN_Hping": {
+      "precision": 0.9990671641791045,
+      "recall": 0.7927461139896373,
+      "f1-score": 0.8840280643829963,
+      "support": 1351.0
+    },
+    "MQTT_Publish": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 62.0
+    },
+    "Metasploit_Brute_Force_SSH": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "NMAP_FIN_SCAN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "NMAP_OS_DETECTION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "NMAP_TCP_scan": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 15.0
+    },
+    "NMAP_UDP_SCAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 39.0
+    },
+    "NMAP_XMAS_TREE_SCAN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "Thing_Speak": {
+      "precision": 1.0,
+      "recall": 0.991304347826087,
+      "f1-score": 0.9956331877729258,
+      "support": 115.0
+    },
+    "Wipro_bulb": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "accuracy": 0.8394573205200678,
+    "macro avg": {
+      "precision": 0.7634954960048242,
+      "recall": 0.8041962341368176,
+      "f1-score": 0.7667371004324325,
+      "support": 1769.0
+    },
+    "weighted avg": {
+      "precision": 0.9518630861571682,
+      "recall": 0.8394573205200678,
+      "f1-score": 0.874014067933375,
+      "support": 1769.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      114,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      280,
+      0,
+      1071,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      62,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      39,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      114,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "macroF1_posthoc_common10": 0.920084520518919,
+  "common10_class_labels": [
+    "ARP_poisioning",
+    "DDOS_Slowloris",
+    "DOS_SYN_Hping",
+    "MQTT_Publish",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "Thing_Speak",
+    "Wipro_bulb"
+  ],
+  "seed": 11
+}

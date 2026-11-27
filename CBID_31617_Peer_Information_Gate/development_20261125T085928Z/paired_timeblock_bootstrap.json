@@ -1,0 +1,47 @@
+{
+  "real_minus_local": {
+    "block_size_minutes": 30,
+    "blocks": 16,
+    "replicates_valid": 300,
+    "delta_ap_point": -0.13620546987025495,
+    "delta_ap_bootstrap_q025": -0.18198157008198118,
+    "delta_ap_bootstrap_q975": -0.07098451826051183,
+    "limitation": "time-block bootstrap; not independent devices, campaigns, or external test"
+  },
+  "real_minus_local_degree": {
+    "block_size_minutes": 30,
+    "blocks": 16,
+    "replicates_valid": 300,
+    "delta_ap_point": -0.03698914177724749,
+    "delta_ap_bootstrap_q025": -0.14423367089200365,
+    "delta_ap_bootstrap_q975": -0.017143627771055266,
+    "limitation": "time-block bootstrap; not independent devices, campaigns, or external test"
+  },
+  "real_minus_random_peer_1": {
+    "block_size_minutes": 30,
+    "blocks": 16,
+    "replicates_valid": 300,
+    "delta_ap_point": -0.0211444703707106,
+    "delta_ap_bootstrap_q025": -0.07621803552003209,
+    "delta_ap_bootstrap_q975": 0.014800283487751243,
+    "limitation": "time-block bootstrap; not independent devices, campaigns, or external test"
+  },
+  "real_minus_random_peer_2": {
+    "block_size_minutes": 30,
+    "blocks": 16,
+    "replicates_valid": 300,
+    "delta_ap_point": -0.006357987244812069,
+    "delta_ap_bootstrap_q025": -0.032804344463850485,
+    "delta_ap_bootstrap_q975": 0.052111686790634756,
+    "limitation": "time-block bootstrap; not independent devices, campaigns, or external test"
+  },
+  "real_minus_random_peer_3": {
+    "block_size_minutes": 30,
+    "blocks": 16,
+    "replicates_valid": 300,
+    "delta_ap_point": -0.03518487982791724,
+    "delta_ap_bootstrap_q025": -0.0946936153716461,
+    "delta_ap_bootstrap_q975": -0.01578491694143335,
+    "limitation": "time-block bootstrap; not independent devices, campaigns, or external test"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "verdict": "NO_GO",
+  "B_coordinated_windows": 4450,
+  "B_coordinated_positive_source_windows": 8900,
+  "missed_by_context": 99,
+  "missed_all": 91,
+  "headroom": 0.011123595505617978
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Inputs transcribed from already reported results; not raw prediction exports and not independent replication.",
+  "RT_IoT2022": {
+    "score": "macroF1_common10",
+    "edge": 0.969111,
+    "no_messages": 0.968161,
+    "shuffled": null,
+    "real_host_time": false,
+    "split_integrity": "confirmed: split before window construction; train-only preprocessing; exact-feature overlap zero; no host/time independence",
+    "independent_campaigns": false,
+    "independent_uncertainty": false
+  },
+  "NF_ToN_IoT_v3": {
+    "score": "average_precision",
+    "edge": 0.428,
+    "no_messages": 0.4394,
+    "shuffled": 0.4312,
+    "real_host_time": true,
+    "split_integrity": "partial: exploratory label-assisted selection, revisited validation",
+    "independent_campaigns": false,
+    "independent_uncertainty": false
+  },
+  "DDoS_feasibility": {
+    "recurrent_source_sets": 1,
+    "coordinated_observations": 8900,
+    "missed_by_XGB_context": 99,
+    "predefined_headroom_cutoff": 0.1
+  }
+}

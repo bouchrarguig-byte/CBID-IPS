@@ -1,0 +1,7 @@
+partition,variant,sampled_windows,arcs_per_window_mean,edge_weight_mean,edge_weight_sd,edge_weight_p05,edge_weight_p95,edge_weight_ge_0_99,indegree_min,indegree_max
+train,selfloops,1000,0.0,,,,,,,
+train,behavioral_knn,1000,20.0,0.971265183377266,0.10645575234497894,0.6768056750297546,1.0,0.88675,2.0,2.0
+train,shuffled_knn,1000,20.0,0.971265183377266,0.10645575234497894,0.6768056750297546,1.0,0.88675,2.0,2.0
+validation,selfloops,1000,0.0,,,,,,,
+validation,behavioral_knn,1000,20.0,0.9734752156168223,0.10096144874103623,0.7998083233833314,1.0,0.8951,2.0,2.0
+validation,shuffled_knn,1000,20.0,0.9734752156168223,0.10096144874103623,0.7998083233833314,1.0,0.8951,2.0,2.0

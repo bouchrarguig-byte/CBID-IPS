@@ -1,0 +1,19 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "macro_f1_diff_edges_minus_no_edges": [
+    -0.04793114417445643,
+    -0.050324826759182706,
+    -0.027832804488818086,
+    -0.05090601503018366,
+    -0.05159813811602465
+  ],
+  "mean_difference": -0.045718585713733106,
+  "sd_of_seed_differences": 0.010093222985014357,
+  "warning": "Single validation split, paired seed variations only. This is NOT a cross-network 95% CI or significance test."
+}

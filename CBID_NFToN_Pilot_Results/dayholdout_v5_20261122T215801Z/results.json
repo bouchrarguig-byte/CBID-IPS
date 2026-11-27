@@ -1,0 +1,290 @@
+{
+  "type": "EXPLORATORY 11-DESTINATION DAY-HOLDOUT; NOT INDEPENDENT EXTERNAL GENERALIZATION",
+  "input_path": "/home/experimenter/Downloads/CBID_NFToN_Scanning_Expanded_v4/host_window_end_2019-04-23_24_10s.csv",
+  "seed": 42,
+  "embargo_seconds": 120,
+  "val_start_utc": "2019-04-23T16:00:00+00:00",
+  "test_start_utc": "2019-04-24T00:00:00+00:00",
+  "split": "Train before 2019-04-23T16:00Z; validate rest of 2019-04-23 (120s embargo); test all of 2019-04-24; fixed UTC boundaries",
+  "model_selection": "validation macro-F1 for GATv2; fixed threshold 0.5",
+  "imbalance_handling": "same inverse-class-frequency training weights in RF, XGB and GATv2",
+  "feature_whitelist": [
+    "n_flows",
+    "sum_in_bytes",
+    "sum_out_bytes",
+    "sum_in_pkts",
+    "sum_out_pkts",
+    "mean_flow_duration_ms",
+    "n_unique_dst_ports",
+    "fraction_tcp",
+    "fraction_udp"
+  ],
+  "excluded_from_features": "all *_META, *_AUDIT_ONLY, y_scanning_host_window, source_ip, destination_ip",
+  "known_limitations": [
+    "11 destinations selected by label-assisted exploratory screening, not independently sampled.",
+    "Train/validation and test occur on different dates but hosts/targets may recur.",
+    "Single day-held-out test cannot establish generalisation across networks or attack campaigns.",
+    "No deduplication of individual raw flows has been performed by this aggregated-CSV benchmark.",
+    "IP sources have not been verified as IoT devices; multi-source scanning is not proof of coordinated control.",
+    "Temporal split tests later observations, not generalisation to entirely unseen hosts/destinations.",
+    "Repeated hosts/window autocorrelation: no inferential significance or confidence intervals are claimed.",
+    "Label is any scanning flow in a source-destination-window, not attack attribution of a whole device.",
+    "Predictions apply to observed source-windows, not empty time bins.",
+    "Node features summarize flows completed by the bin end; not available earlier in real-time."
+  ],
+  "split_counts": {
+    "train": {
+      "source_windows": 13312,
+      "graphs": 4339,
+      "positive": 3429
+    },
+    "validation": {
+      "source_windows": 27861,
+      "graphs": 13229,
+      "positive": 2992
+    },
+    "test": {
+      "source_windows": 38502,
+      "graphs": 21199,
+      "positive": 7778
+    }
+  },
+  "models": {
+    "RF_local": {
+      "support": 38502,
+      "positive_support": 7778,
+      "negative_support": 30724,
+      "accuracy": 0.8239052516752376,
+      "macro_f1": 0.7341195773844724,
+      "weighted_f1": 0.8262006573109898,
+      "scan_precision": 0.5597604790419162,
+      "scan_recall": 0.6009256878374903,
+      "scan_f1": 0.5796130952380952,
+      "balanced_accuracy": 0.7406399041973547,
+      "mcc": 0.4688880767893474,
+      "confusion_matrix_0_1": [
+        [
+          27048,
+          3676
+        ],
+        [
+          3104,
+          4674
+        ]
+      ],
+      "roc_auc": 0.8158959102833081
+    },
+    "RF_with_context": {
+      "support": 38502,
+      "positive_support": 7778,
+      "negative_support": 30724,
+      "accuracy": 0.8105812685055321,
+      "macro_f1": 0.7091510918001873,
+      "weighted_f1": 0.8115136213634914,
+      "scan_precision": 0.5303618379867284,
+      "scan_recall": 0.5446130110568269,
+      "scan_f1": 0.5373929590865842,
+      "balanced_accuracy": 0.711263021607049,
+      "mcc": 0.41838663311148555,
+      "confusion_matrix_0_1": [
+        [
+          26973,
+          3751
+        ],
+        [
+          3542,
+          4236
+        ]
+      ],
+      "roc_auc": 0.7840145530128828
+    },
+    "XGB_local": {
+      "support": 38502,
+      "positive_support": 7778,
+      "negative_support": 30724,
+      "accuracy": 0.7439613526570048,
+      "macro_f1": 0.6794727339121748,
+      "weighted_f1": 0.7651563381807833,
+      "scan_precision": 0.42269956890144195,
+      "scan_recall": 0.7311648238621754,
+      "scan_f1": 0.5357008289374529,
+      "balanced_accuracy": 0.7391828545817842,
+      "mcc": 0.4028289265796818,
+      "confusion_matrix_0_1": [
+        [
+          22957,
+          7767
+        ],
+        [
+          2091,
+          5687
+        ]
+      ],
+      "roc_auc": 0.8149807312403643
+    },
+    "XGB_with_context": {
+      "support": 38502,
+      "positive_support": 7778,
+      "negative_support": 30724,
+      "accuracy": 0.7944522362474676,
+      "macro_f1": 0.7179707480303545,
+      "weighted_f1": 0.8054991384857101,
+      "scan_precision": 0.49362937980138655,
+      "scan_recall": 0.6774235021856518,
+      "scan_f1": 0.571103403425103,
+      "balanced_accuracy": 0.7507511990813691,
+      "mcc": 0.4498225934786434,
+      "confusion_matrix_0_1": [
+        [
+          25319,
+          5405
+        ],
+        [
+          2509,
+          5269
+        ]
+      ],
+      "roc_auc": 0.7881206846486551
+    },
+    "GATv2_star_edges": {
+      "support": 38502,
+      "positive_support": 7778,
+      "negative_support": 30724,
+      "accuracy": 0.5719183419043167,
+      "macro_f1": 0.5351676232276201,
+      "weighted_f1": 0.6130617661017638,
+      "scan_precision": 0.281284551211177,
+      "scan_recall": 0.7195937258935459,
+      "scan_f1": 0.4044659632894927,
+      "balanced_accuracy": 0.6270634948957379,
+      "mcc": 0.20418120432229436,
+      "confusion_matrix_0_1": [
+        [
+          16423,
+          14301
+        ],
+        [
+          2181,
+          5597
+        ]
+      ],
+      "roc_auc": 0.7126251016482015,
+      "selected_epoch": 1,
+      "validation_macro_f1": 0.5976427801281424,
+      "parameters": 11202
+    },
+    "GATv2_no_host_edges": {
+      "support": 38502,
+      "positive_support": 7778,
+      "negative_support": 30724,
+      "accuracy": 0.605085450106488,
+      "macro_f1": 0.5706284631508776,
+      "weighted_f1": 0.6431186091748472,
+      "scan_precision": 0.31261038502296007,
+      "scan_recall": 0.7964772435073284,
+      "scan_f1": 0.4489943830404059,
+      "balanced_accuracy": 0.67655524719306,
+      "mcc": 0.28367297723682494,
+      "confusion_matrix_0_1": [
+        [
+          17102,
+          13622
+        ],
+        [
+          1583,
+          6195
+        ]
+      ],
+      "roc_auc": 0.8214739866304934,
+      "selected_epoch": 1,
+      "validation_macro_f1": 0.652150304740347,
+      "parameters": 11202
+    }
+  },
+  "subgroup_recall_by_observed_positive_sources": {
+    "RF_local": {
+      "k=1": {
+        "positive_source_windows": 1661,
+        "recall": 0.42624924744130044
+      },
+      "k=2-3": {
+        "positive_source_windows": 5411,
+        "recall": 0.6239142487525411
+      },
+      "k>=4": {
+        "positive_source_windows": 706,
+        "recall": 0.8356940509915014
+      }
+    },
+    "RF_with_context": {
+      "k=1": {
+        "positive_source_windows": 1661,
+        "recall": 0.43226971703792894
+      },
+      "k=2-3": {
+        "positive_source_windows": 5411,
+        "recall": 0.5405655146922935
+      },
+      "k>=4": {
+        "positive_source_windows": 706,
+        "recall": 0.839943342776204
+      }
+    },
+    "XGB_local": {
+      "k=1": {
+        "positive_source_windows": 1661,
+        "recall": 0.6110776640577965
+      },
+      "k=2-3": {
+        "positive_source_windows": 5411,
+        "recall": 0.7447791535760487
+      },
+      "k>=4": {
+        "positive_source_windows": 706,
+        "recall": 0.9093484419263456
+      }
+    },
+    "XGB_with_context": {
+      "k=1": {
+        "positive_source_windows": 1661,
+        "recall": 0.5629139072847682
+      },
+      "k=2-3": {
+        "positive_source_windows": 5411,
+        "recall": 0.6839770837183515
+      },
+      "k>=4": {
+        "positive_source_windows": 706,
+        "recall": 0.896600566572238
+      }
+    },
+    "GATv2_star_edges": {
+      "k=1": {
+        "positive_source_windows": 1661,
+        "recall": 0.551475015051174
+      },
+      "k=2-3": {
+        "positive_source_windows": 5411,
+        "recall": 0.7495841803733136
+      },
+      "k>=4": {
+        "positive_source_windows": 706,
+        "recall": 0.8852691218130312
+      }
+    },
+    "GATv2_no_host_edges": {
+      "k=1": {
+        "positive_source_windows": 1661,
+        "recall": 0.650210716435882
+      },
+      "k=2-3": {
+        "positive_source_windows": 5411,
+        "recall": 0.8488264646091296
+      },
+      "k>=4": {
+        "positive_source_windows": 706,
+        "recall": 0.7393767705382436
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+partition,variant,sampled_windows,arcs_per_window_mean,edge_weight_mean
+train,selfloops,1000,0.0,
+train,behavioral_knn,1000,20.0,0.971265183377266
+train,shuffled_knn,1000,20.0,0.971265183377266
+validation,selfloops,1000,0.0,
+validation,behavioral_knn,1000,20.0,0.9734752156168223
+validation,shuffled_knn,1000,20.0,0.9734752156168223

@@ -1,0 +1,36 @@
+{
+  "stage": "posthoc diagnosis only; all days previously evaluated",
+  "no_action": true,
+  "no_fit": true,
+  "no_threshold_search": true,
+  "input_sha256": {
+    "D": "5778eb0d9fa26ec7a1a969011c9dc1b3d4f8837c62f4aecea225087c69c9af01",
+    "E": "7b9cde4817052a6db680c0cce4f131530e24b33e19d9efde33ae4e93f3272568",
+    "F": "b8f5b9b95d14e837c32ad040e92f3831b508ec1d77a2126743fcb8e5f5dca8ad"
+  },
+  "risk_hashes": {
+    "42_M0_local": "ed068c9f0ded16c57ed9d8bc3d58d26afd10cc3ded6e2dae9d6ffd88f8df3bcc",
+    "42_G1_real_peer": "a635bc37792c1c5683c743250c7339e7509ac1baa9b8b4ce36de3120435e8c39",
+    "43_M0_local": "12bab24a8344cb21d3afb59182c9d8c0ef3af475f6709b27909cf6a161f2123d",
+    "43_G1_real_peer": "21bbd38179d3996ee1b144f85890fa80381fdcb7b8d2fb3f34cc2dbf359e8159",
+    "44_M0_local": "28e5005daeb0b02f24af0fb6b2ccf0f0cc97d10c5661dc389009432c84dd212f",
+    "44_G1_real_peer": "3f11bdf5a71ca4812defda04335b2368c7be72d16ae1c1b72cefc350e0a287b2"
+  },
+  "source_sha256": "f033936b11cacf41665209282e68f638b811b4bb43694844ec8925d3d70b68c0",
+  "freeze_sha256": "c48b1feca8df7a3d5bc032f092a773df873563c6586fa7fd26cfee6be6545d0c",
+  "model_freeze_sha256": "92198e78d35047750afc34edf96c9f482a81a746c302b7170fc8a857cbc2952e",
+  "policy_freeze_sha256": "d148b49e190382565810ca580d598a853fe769ad50a841250f306becc2aaf023",
+  "days": [
+    "D",
+    "E",
+    "F"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "python": "3.12.3",
+  "sklearn": "1.7.2",
+  "torch": "2.9.0+cu130"
+}

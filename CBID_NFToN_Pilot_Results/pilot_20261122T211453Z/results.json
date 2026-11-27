@@ -1,0 +1,204 @@
+{
+  "type": "EXPLORATORY TWO-DESTINATION PILOT; NOT EXTERNAL GENERALIZATION",
+  "input_path": "/home/experimenter/Downloads/CBID_NFToN_Scanning_Audit/host_window_end_2019-04-24_10s.csv",
+  "seed": 42,
+  "embargo_seconds": 120,
+  "split": "60%/20%/20% of unique observed UTC 10-second bins; shared time boundaries + embargo",
+  "model_selection": "validation macro-F1 for GATv2; fixed threshold 0.5",
+  "imbalance_handling": "same inverse-class-frequency training weights in RF, XGB and GATv2",
+  "feature_whitelist": [
+    "n_flows",
+    "sum_in_bytes",
+    "sum_out_bytes",
+    "sum_in_pkts",
+    "sum_out_pkts",
+    "mean_flow_duration_ms",
+    "n_unique_dst_ports",
+    "fraction_tcp",
+    "fraction_udp"
+  ],
+  "excluded_from_features": "all *_META, *_AUDIT_ONLY, y_scanning_host_window, source_ip, destination_ip",
+  "known_limitations": [
+    "Destinations selected after inspecting labels: exploratory pilot, not independent external evaluation.",
+    "No deduplication of individual raw flows has been performed by this aggregated-CSV benchmark.",
+    "IP sources have not been verified as IoT devices; multi-source scanning is not proof of coordinated control.",
+    "Temporal split tests later observations, not generalisation to entirely unseen hosts/destinations.",
+    "Repeated hosts/window autocorrelation: no inferential significance or confidence intervals are claimed.",
+    "Label is any scanning flow in a source-destination-window, not attack attribution of a whole device.",
+    "Predictions apply to observed source-windows, not empty time bins.",
+    "Node features summarize flows completed by the bin end; not available earlier in real-time."
+  ],
+  "split_counts": {
+    "train": {
+      "source_windows": 2848,
+      "graphs": 653,
+      "positive": 1113
+    },
+    "validation": {
+      "source_windows": 355,
+      "graphs": 151,
+      "positive": 76
+    },
+    "test": {
+      "source_windows": 359,
+      "graphs": 155,
+      "positive": 23
+    }
+  },
+  "models": {
+    "RF_local": {
+      "support": 359,
+      "positive_support": 23,
+      "negative_support": 336,
+      "accuracy": 0.8133704735376045,
+      "macro_f1": 0.4891579059148349,
+      "weighted_f1": 0.8439779536977959,
+      "scan_precision": 0.06,
+      "scan_recall": 0.13043478260869565,
+      "scan_f1": 0.0821917808219178,
+      "balanced_accuracy": 0.4952769151138717,
+      "mcc": -0.006680747557024979,
+      "confusion_matrix_0_1": [
+        [
+          289,
+          47
+        ],
+        [
+          20,
+          3
+        ]
+      ],
+      "roc_auc": 0.6377458592132504
+    },
+    "RF_with_context": {
+      "support": 359,
+      "positive_support": 23,
+      "negative_support": 336,
+      "accuracy": 0.8189415041782729,
+      "macro_f1": 0.46500217804984295,
+      "weighted_f1": 0.8443960447560025,
+      "scan_precision": 0.022727272727272728,
+      "scan_recall": 0.043478260869565216,
+      "scan_f1": 0.029850746268656716,
+      "balanced_accuracy": 0.45775103519668736,
+      "mcc": -0.06309544525261133,
+      "confusion_matrix_0_1": [
+        [
+          293,
+          43
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "roc_auc": 0.44248188405797095
+    },
+    "XGB_local": {
+      "support": 359,
+      "positive_support": 23,
+      "negative_support": 336,
+      "accuracy": 0.7994428969359332,
+      "macro_f1": 0.504371836171192,
+      "weighted_f1": 0.8377914824504843,
+      "scan_precision": 0.0847457627118644,
+      "scan_recall": 0.21739130434782608,
+      "scan_f1": 0.12195121951219512,
+      "balanced_accuracy": 0.5283385093167702,
+      "mcc": 0.03745018096513697,
+      "confusion_matrix_0_1": [
+        [
+          282,
+          54
+        ],
+        [
+          18,
+          5
+        ]
+      ],
+      "roc_auc": 0.4569099378881988
+    },
+    "XGB_with_context": {
+      "support": 359,
+      "positive_support": 23,
+      "negative_support": 336,
+      "accuracy": 0.7827298050139275,
+      "macro_f1": 0.451371473354232,
+      "weighted_f1": 0.8231103902341056,
+      "scan_precision": 0.017543859649122806,
+      "scan_recall": 0.043478260869565216,
+      "scan_f1": 0.025,
+      "balanced_accuracy": 0.4384057971014493,
+      "mcc": -0.0825396251783068,
+      "confusion_matrix_0_1": [
+        [
+          280,
+          56
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "roc_auc": 0.3984213250517599
+    }
+  },
+  "subgroup_recall_by_observed_positive_sources": {
+    "RF_local": {
+      "k=1": {
+        "positive_source_windows": 15,
+        "recall": 0.13333333333333333
+      },
+      "k=2-3": {
+        "positive_source_windows": 8,
+        "recall": 0.125
+      },
+      "k>=4": {
+        "positive_source_windows": 0,
+        "recall": null
+      }
+    },
+    "RF_with_context": {
+      "k=1": {
+        "positive_source_windows": 15,
+        "recall": 0.0
+      },
+      "k=2-3": {
+        "positive_source_windows": 8,
+        "recall": 0.125
+      },
+      "k>=4": {
+        "positive_source_windows": 0,
+        "recall": null
+      }
+    },
+    "XGB_local": {
+      "k=1": {
+        "positive_source_windows": 15,
+        "recall": 0.2
+      },
+      "k=2-3": {
+        "positive_source_windows": 8,
+        "recall": 0.25
+      },
+      "k>=4": {
+        "positive_source_windows": 0,
+        "recall": null
+      }
+    },
+    "XGB_with_context": {
+      "k=1": {
+        "positive_source_windows": 15,
+        "recall": 0.06666666666666667
+      },
+      "k=2-3": {
+        "positive_source_windows": 8,
+        "recall": 0.0
+      },
+      "k>=4": {
+        "positive_source_windows": 0,
+        "recall": null
+      }
+    }
+  }
+}

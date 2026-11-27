@@ -1,0 +1,58 @@
+{
+  "status": "EXPLORATORY DEVELOPMENT, NOT EXTERNAL OR BLINDED EVALUATION",
+  "data": "/home/experimenter/Downloads/CBID_NFToN_Scanning_Expanded_v4/host_window_end_2019-04-23_24_10s.csv",
+  "train_before_utc": "2019-04-23T16:00:00+00:00",
+  "validation_before_utc": "2019-04-24T00:00:00+00:00",
+  "holdout_status": "24-Apr excluded; already inspected in V5 prior work",
+  "data_selection": "11 destinations selected by label-assisted prior exploration",
+  "graph_definition": "10-second per-target star; artificial mean-feature target hub",
+  "model": "two-layer GATv2 with learned-gate local-logit residual, identical parameterization in each graph ablation",
+  "factors": [
+    "balanced versus unweighted cross entropy",
+    "star versus no host edges"
+  ],
+  "selection": "highest average_precision on SAME known 23-Apr validation; not unbiased evaluation",
+  "decision_threshold": 0.5,
+  "primary_metric": "average_precision",
+  "feature_columns": [
+    "n_flows",
+    "sum_in_bytes",
+    "sum_out_bytes",
+    "sum_in_pkts",
+    "sum_out_pkts",
+    "mean_flow_duration_ms",
+    "n_unique_dst_ports",
+    "fraction_tcp",
+    "fraction_udp"
+  ],
+  "excluded_as_predictors": [
+    "addresses",
+    "timestamps",
+    "*AUDIT_ONLY",
+    "label"
+  ],
+  "args": {
+    "input": "/home/experimenter/Downloads/CBID_NFToN_Scanning_Expanded_v4/host_window_end_2019-04-23_24_10s.csv",
+    "output_root": "/home/experimenter/Downloads/CBID_NFToN_Development_v7",
+    "check_only": false,
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "epochs": 25,
+    "patience": 6,
+    "batch_size": 128,
+    "lr": 0.0002,
+    "weight_decay": 0.0002,
+    "hidden": 32,
+    "heads": 2,
+    "dropout": 0.2,
+    "embargo_seconds": 120,
+    "validation_start": "2019-04-23T16:00:00+00:00",
+    "holdout_start": "2019-04-24T00:00:00+00:00"
+  },
+  "seed_uncertainty": "variation in initialization only; NOT independent network/session CI"
+}

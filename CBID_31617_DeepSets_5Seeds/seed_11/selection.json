@@ -1,0 +1,22 @@
+{
+  "seed": 11,
+  "best_epoch": 3,
+  "best_validation_macroF1_eligible11": 0.9076005961251863,
+  "train_seconds": 6.716181214998869,
+  "n_parameters": 2939276,
+  "optimizer": "AdamW",
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 2.0,
+  "schedule": "CosineAnnealingLR(T_max=10)",
+  "batch_size": 32,
+  "epochs_max": 18,
+  "patience": 5,
+  "dropout": 0.3,
+  "balance_sampler": false,
+  "architecture": "phi: Linear(D,1536)-LN-LeakyReLU; Linear(1536,1536)-LN-LeakyReLU; Linear(1536,256)-LeakyReLU; mean over 10 records; rho: 256-128-12",
+  "no_graph_attention": true,
+  "no_graph_edges": true,
+  "torch": "2.9.0+cu130",
+  "device": "cuda"
+}

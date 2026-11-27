@@ -1,0 +1,49 @@
+{
+  "evaluation": "DEVELOPMENT ONLY; known 23-Apr validation; previously examined 24-Apr test NOT touched",
+  "dataset_selection": "11 label-selected destinations; not an independent test",
+  "architecture": "10-sec global multi-target host graph, pair-edge labels, 9 standardized edge features; two edge-aware GATv2 layers with local-logit residual and learned gate",
+  "graph_ablations": [
+    "no_messages",
+    "real_edges",
+    "shuffled_edges"
+  ],
+  "classification_target": "source->destination 10s group scanning label",
+  "holdout": "All rows >= 24-Apr filtered by timestamp BEFORE labels are accessed",
+  "limitations": [
+    "Only nine coarse features, not all NetFlow features",
+    "Source/destination scope was selected after labels were examined",
+    "No independent test; cannot substantiate inter-device gain if validation is improved",
+    "Source IPs are network endpoints, not confirmed compromised IoT hardware",
+    "Future communication fields and prevention claims not validated"
+  ],
+  "args": {
+    "input": "/home/experimenter/Downloads/CBID_NFToN_Scanning_Expanded_v4/host_window_end_2019-04-23_24_10s.csv",
+    "output_root": "/home/experimenter/Downloads/CBID_NFToN_EdgeAware_v8",
+    "check_only": false,
+    "skip_latency": false,
+    "skip_baselines": false,
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "variants": [
+      "no_messages",
+      "real_edges",
+      "shuffled_edges"
+    ],
+    "epochs": 25,
+    "patience": 6,
+    "batch_size": 64,
+    "hidden": 32,
+    "heads": 2,
+    "lr": 0.0002,
+    "dropout": 0.2,
+    "weight_decay": 0.0002,
+    "embargo_seconds": 120,
+    "validation_start": "2019-04-23T16:00:00+00:00",
+    "holdout_start": "2019-04-24T00:00:00+00:00"
+  }
+}

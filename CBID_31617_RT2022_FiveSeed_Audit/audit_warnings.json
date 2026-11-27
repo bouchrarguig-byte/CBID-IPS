@@ -1,0 +1,143 @@
+{
+  "warnings": [
+    "IMPORTANT LOW ACCURACY: seed=44, variant=GATv2_uppertriangular, partition=test, accuracy=0.88751"
+  ],
+  "selected_runs": [
+    {
+      "seed": 11,
+      "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z",
+      "candidate_runs": [
+        "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204204Z"
+      ],
+      "args": {
+        "csv": "/home/experimenter/Downloads/telechargement 1/telech/RT-IoT2022/rt_iot2022_prepared.csv",
+        "out": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2",
+        "mode": "gat",
+        "window_size": 10,
+        "stride": 10,
+        "seed": 11,
+        "trees": 150,
+        "include_xgb": false,
+        "jobs": 8,
+        "hidden": 256,
+        "heads": 4,
+        "epochs": 18,
+        "patience": 5,
+        "lr": 0.0003,
+        "batch_size": 32,
+        "dropout": 0.3,
+        "balance_sampler": false,
+        "cpu": false
+      }
+    },
+    {
+      "seed": 22,
+      "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z",
+      "candidate_runs": [
+        "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204439Z"
+      ],
+      "args": {
+        "csv": "/home/experimenter/Downloads/telechargement 1/telech/RT-IoT2022/rt_iot2022_prepared.csv",
+        "out": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2",
+        "mode": "gat",
+        "window_size": 10,
+        "stride": 10,
+        "seed": 22,
+        "trees": 150,
+        "include_xgb": false,
+        "jobs": 8,
+        "hidden": 256,
+        "heads": 4,
+        "epochs": 18,
+        "patience": 5,
+        "lr": 0.0003,
+        "batch_size": 32,
+        "dropout": 0.3,
+        "balance_sampler": false,
+        "cpu": false
+      }
+    },
+    {
+      "seed": 33,
+      "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z",
+      "candidate_runs": [
+        "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204711Z"
+      ],
+      "args": {
+        "csv": "/home/experimenter/Downloads/telechargement 1/telech/RT-IoT2022/rt_iot2022_prepared.csv",
+        "out": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2",
+        "mode": "gat",
+        "window_size": 10,
+        "stride": 10,
+        "seed": 33,
+        "trees": 150,
+        "include_xgb": false,
+        "jobs": 8,
+        "hidden": 256,
+        "heads": 4,
+        "epochs": 18,
+        "patience": 5,
+        "lr": 0.0003,
+        "batch_size": 32,
+        "dropout": 0.3,
+        "balance_sampler": false,
+        "cpu": false
+      }
+    },
+    {
+      "seed": 42,
+      "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z",
+      "candidate_runs": [
+        "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T203247Z"
+      ],
+      "args": {
+        "csv": "/home/experimenter/Downloads/telechargement 1/telech/RT-IoT2022/rt_iot2022_prepared.csv",
+        "out": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2",
+        "mode": "gat",
+        "window_size": 10,
+        "stride": 10,
+        "seed": 42,
+        "trees": 150,
+        "include_xgb": false,
+        "jobs": 8,
+        "hidden": 256,
+        "heads": 4,
+        "epochs": 18,
+        "patience": 5,
+        "lr": 0.0003,
+        "batch_size": 32,
+        "dropout": 0.3,
+        "balance_sampler": false,
+        "cpu": false
+      }
+    },
+    {
+      "seed": 44,
+      "path": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z",
+      "candidate_runs": [
+        "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2/gat_20261124T204941Z"
+      ],
+      "args": {
+        "csv": "/home/experimenter/Downloads/telechargement 1/telech/RT-IoT2022/rt_iot2022_prepared.csv",
+        "out": "/home/experimenter/Downloads/CBID_RT2022_Controlled_Window_v2",
+        "mode": "gat",
+        "window_size": 10,
+        "stride": 10,
+        "seed": 44,
+        "trees": 150,
+        "include_xgb": false,
+        "jobs": 8,
+        "hidden": 256,
+        "heads": 4,
+        "epochs": 18,
+        "patience": 5,
+        "lr": 0.0003,
+        "batch_size": 32,
+        "dropout": 0.3,
+        "balance_sampler": false,
+        "cpu": false
+      }
+    }
+  ],
+  "methodological_caveat": "Five seeds on the same class-sorted split, not independent networks. Test examined previously."
+}

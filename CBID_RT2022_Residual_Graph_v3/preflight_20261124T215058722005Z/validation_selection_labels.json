@@ -1,0 +1,22 @@
+{
+  "min_val_windows": 5,
+  "based_on_train_validation_only": true,
+  "selected_labels": [
+    "ARP_poisioning",
+    "DDOS_Slowloris",
+    "DOS_SYN_Hping",
+    "MQTT_Publish",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "Thing_Speak"
+  ],
+  "excluded_labels": [
+    "Metasploit_Brute_Force_SSH",
+    "NMAP_FIN_SCAN",
+    "Wipro_bulb"
+  ],
+  "method_devised_after_earlier_test_exploration": true,
+  "note": "All 12 labels are still evaluated in test; missing classes are reported as missing."
+}

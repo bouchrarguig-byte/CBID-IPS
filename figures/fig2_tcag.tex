@@ -1,0 +1,10 @@
+\begin{tikzpicture}[font=\small, >=Latex, node distance=4mm, box/.style={draw=blue!55!black,fill=blue!5,rounded corners=2pt,align=center,inner sep=4pt,text width=45mm}, ext/.style={box,draw=teal!65!black,fill=teal!7}, op/.style={box,draw=orange!70!black,fill=orange!8}, flow/.style={->,thick,draw=black!65}]
+\node[box,text width=100mm] (x) {Completed flows grouped by source, destination and 10 s window};
+\node[box,below=of x,text width=100mm] (z) {15 local + 8 historical features (preceding 60 s)\\Frozen log transformation and normalization};
+\node[ext,below=of z,text width=100mm] (h) {Local encoder $h_i$ (64 dimensions)};
+\node[ext,below left=5mm and -45mm of h] (v) {Message $v_j$\\Same destination/window};
+\node[ext,below right=5mm and -45mm of h] (m) {Implicit group sum\\$m_i=(S_g-v_i)/\max(n_g-1,1)$};
+\node[ext,below=22mm of h,text width=100mm] (u) {Vector gate $a_i=\sigma(W_g[h_i\Vert m_i]+b_g)$\\Residual fusion $u_i=h_i+a_i\odot m_i$};
+\node[box,below=of u,text width=100mm] (p) {Binary score $p_i$ and frozen threshold};
+\draw[flow](x)--(z);\draw[flow](z)--(h);\draw[flow](h.south)--++(0,-2mm)-|(v.north);\draw[flow](v)--(m);\draw[flow](m.south)--(m.south |- u.north);\draw[flow](h.south)--(u.north);\draw[flow](u)--(p);
+\end{tikzpicture}

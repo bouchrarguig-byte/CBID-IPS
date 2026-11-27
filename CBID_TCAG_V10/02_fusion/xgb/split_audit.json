@@ -1,0 +1,65 @@
+[
+  {
+    "fold": 6,
+    "counts": {
+      "train": {
+        "n": 30810,
+        "positive": 19849,
+        "negative": 10961
+      },
+      "cal": {
+        "n": 852,
+        "positive": 84,
+        "negative": 768
+      },
+      "test": {
+        "n": 21943,
+        "positive": 6356,
+        "negative": 15587
+      }
+    },
+    "eligible": false
+  },
+  {
+    "fold": 12,
+    "counts": {
+      "train": {
+        "n": 52309,
+        "positive": 25687,
+        "negative": 26622
+      },
+      "cal": {
+        "n": 1188,
+        "positive": 425,
+        "negative": 763
+      },
+      "test": {
+        "n": 37276,
+        "positive": 7605,
+        "negative": 29671
+      }
+    },
+    "eligible": true
+  },
+  {
+    "fold": 18,
+    "counts": {
+      "train": {
+        "n": 81371,
+        "positive": 29493,
+        "negative": 51878
+      },
+      "cal": {
+        "n": 9607,
+        "positive": 4293,
+        "negative": 5314
+      },
+      "test": {
+        "n": 38788,
+        "positive": 16092,
+        "negative": 22696
+      }
+    },
+    "eligible": true
+  }
+]

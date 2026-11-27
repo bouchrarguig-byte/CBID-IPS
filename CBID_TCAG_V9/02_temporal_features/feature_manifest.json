@@ -1,0 +1,70 @@
+{
+  "sha256": "b3b6256e970a8986d87716edea4bfd436d68f04058bf5c26cf67e6d839c83698",
+  "window_seconds": 10,
+  "history_seconds": 60,
+  "target": "any malicious completed flow in pair-window",
+  "days": {
+    "2019-04-23": {
+      "flows": 5843033,
+      "windows": 110417,
+      "positive_windows": 33516,
+      "negative_windows": 76901,
+      "mixed_windows": 31879,
+      "flow_attack_counts": {
+        "Benign": 5580826,
+        "scanning": 262207
+      }
+    },
+    "2019-04-25": {
+      "flows": 6373048,
+      "windows": 130307,
+      "positive_windows": 50122,
+      "negative_windows": 80185,
+      "mixed_windows": 5684,
+      "flow_attack_counts": {
+        "dos": 70149,
+        "Benign": 3434086,
+        "injection": 381777,
+        "ddos": 2487036
+      }
+    }
+  },
+  "feature_groups": {
+    "local": [
+      "flows",
+      "IN_BYTES",
+      "OUT_BYTES",
+      "IN_PKTS",
+      "OUT_PKTS",
+      "FLOW_DURATION_MILLISECONDS",
+      "RETRANSMITTED_IN_PKTS",
+      "RETRANSMITTED_OUT_PKTS",
+      "distinct_dst_ports",
+      "total_bytes",
+      "total_pkts",
+      "mean_duration",
+      "src_flows",
+      "src_bytes",
+      "src_destinations"
+    ],
+    "temporal": [
+      "pair_flows_prev60",
+      "pair_total_bytes_prev60",
+      "pair_total_pkts_prev60",
+      "pair_active_windows_prev60",
+      "source_src_flows_prev60",
+      "source_src_bytes_prev60",
+      "source_src_destinations_prev60",
+      "source_active_windows_prev60"
+    ],
+    "relational": [
+      "peer_count",
+      "peer_mean_flows",
+      "peer_mean_total_bytes",
+      "peer_mean_total_pkts",
+      "peer_mean_distinct_dst_ports",
+      "peer_mean_pair_flows_prev60",
+      "peer_mean_pair_active_windows_prev60"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "variant": "shuffled_knn",
+  "selected_epoch": 9,
+  "validation_selection_macroF1": 0.9850114785417339,
+  "training_seconds": 31.557727198000066,
+  "n_parameters": 258156,
+  "checkpoints_selected_using_test": false
+}

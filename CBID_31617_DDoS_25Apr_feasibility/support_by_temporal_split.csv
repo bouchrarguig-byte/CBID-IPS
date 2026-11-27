@@ -1,0 +1,4 @@
+period,n_10s_bins,n_source_windows,positive_DDoS_source_windows,benign_source_windows,n_destination_windows,coordinated_destination_windows_ge2,coordinated_destination_windows_ge5,positive_in_coordinated_windows
+A_train,2366,27668,0,27668,23035,0,0,0
+A_calibration,1099,45210,10918,34292,21644,3803,0,7623
+B_feasibility,1615,30652,12706,17946,16134,4450,0,8900

@@ -1,0 +1,9 @@
+\begin{tikzpicture}[font=\small, >=Latex, node distance=4mm, box/.style={draw=blue!55!black,fill=blue!5,rounded corners=2pt,align=center,inner sep=4pt,text width=45mm}, ext/.style={box,draw=teal!65!black,fill=teal!7}, op/.style={box,draw=orange!70!black,fill=orange!8}, flow/.style={->,thick,draw=black!65}]
+\node[box,text width=108mm] (a) {\textbf{EG-0} Data integrity, relation provenance and frozen protocol};
+\node[ext,below=of a,text width=108mm] (b) {\textbf{EG-1} Observed vs shuffled peers: $\Delta_{G2}$};
+\node[ext,below=of b,text width=108mm] (c) {\textbf{EG-2} Message passing vs no messages: $\Delta_{G0}$};
+\node[ext,below=of c,text width=108mm] (d) {\textbf{EG-3} Contextual MLP and XGBoost: $\Delta_{G3},\Delta_{M3}$};
+\node[box,below=of d,text width=108mm] (f) {Paired temporal bootstrap: positive / negative / inconclusive};
+\node[op,below=of f,text width=108mm] (g) {\textbf{EG-4} Frozen FPR and intervention exposure};
+\draw[flow](a)--(b);\draw[flow](b)--(c);\draw[flow](c)--(d);\draw[flow](d)--(f);\draw[flow](f)--(g);
+\end{tikzpicture}

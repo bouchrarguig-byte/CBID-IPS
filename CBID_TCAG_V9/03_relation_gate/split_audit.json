@@ -1,0 +1,30 @@
+{
+  "train": {
+    "n": 25502,
+    "positives": 20725,
+    "negatives": 4777,
+    "first_w": 155602859,
+    "last_w": 155602931
+  },
+  "cal": {
+    "n": 52731,
+    "positives": 5180,
+    "negatives": 47551,
+    "first_w": 155602956,
+    "last_w": 155604659
+  },
+  "test_A": {
+    "n": 20952,
+    "positives": 305,
+    "negatives": 20647,
+    "first_w": 155604684,
+    "last_w": 155606399
+  },
+  "shift_B": {
+    "n": 130307,
+    "positives": 50122,
+    "negatives": 80185,
+    "first_w": 155615040,
+    "last_w": 155623679
+  }
+}

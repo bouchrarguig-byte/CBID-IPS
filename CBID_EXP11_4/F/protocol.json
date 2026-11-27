@@ -1,0 +1,10 @@
+{
+  "freeze_sha256": "c48b1feca8df7a3d5bc032f092a773df873563c6586fa7fd26cfee6be6545d0c",
+  "runner_sha256": "4dbabd3ee37c9e8a6c73a839dd2a9f8cbf3a6e8da74d33d194f6ea3c6bec3488",
+  "day": "F",
+  "stage": "frozen retrospective transfer; E/F previously evaluated; not independent confirmation",
+  "input_sha256": "b8f5b9b95d14e837c32ad040e92f3831b508ec1d77a2126743fcb8e5f5dca8ad",
+  "python": "3.12.3",
+  "sklearn": "1.7.2",
+  "torch": "2.9.0+cu130"
+}

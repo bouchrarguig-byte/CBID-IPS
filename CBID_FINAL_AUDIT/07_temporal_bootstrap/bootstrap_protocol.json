@@ -1,0 +1,24 @@
+{
+  "metric": "Average Precision",
+  "block_minutes": [
+    5,
+    15,
+    60
+  ],
+  "bootstrap_replicates": 1000,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "paired_blocks": true,
+  "seed_resampling": false,
+  "confidence_interval": "percentile_95",
+  "days": [
+    "C",
+    "D"
+  ],
+  "exploratory_analysis": true,
+  "new_training": false,
+  "reserved_days_accessed": false
+}

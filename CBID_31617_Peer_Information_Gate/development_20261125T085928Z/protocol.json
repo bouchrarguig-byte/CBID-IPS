@@ -1,0 +1,40 @@
+{
+  "scope": "EXPLORATORY 23Apr validation only, label-selected destinations; no independent test",
+  "input": "/home/experimenter/Downloads/CBID_NFToN_Scanning_Expanded_v4/host_window_end_2019-04-23_24_10s.csv",
+  "train_before_UTC": "2019-04-23T15:58:00Z",
+  "validation_from_UTC": "2019-04-23T16:02:00Z",
+  "validation_to_UTC": "2019-04-24T00:00:00Z",
+  "preprocessing": "train-only V6 StandardScaler after log1p seven features",
+  "focal_exclusion": "true for ALL peer contexts",
+  "graph": "same destination and same 10-s time bin, other source windows only; relational features peer mean, absolute target-peer difference, cosine coherence",
+  "control": "random same-bin different-source records, exactly degree matched; different destination not enforced",
+  "null_repeats": 3,
+  "seed": 42,
+  "algorithm": "xgb",
+  "split_support": {
+    "train": {
+      "n_rows": 13312,
+      "n_records_with_peer": 13127,
+      "frac_with_peer": 0.9861027644230769,
+      "max_peer_count": 25,
+      "n_timestamps": 649,
+      "n_destinations": 10
+    },
+    "validation": {
+      "n_rows": 27861,
+      "n_records_with_peer": 22279,
+      "frac_with_peer": 0.7996482538315207,
+      "max_peer_count": 31,
+      "n_timestamps": 2868,
+      "n_destinations": 10
+    }
+  },
+  "holdout_day": "24Apr previously examined; this study does not retain/use its labels for fitting or scoring",
+  "limitations": [
+    "11 destinations selected after seeing class labels in previous work",
+    "Same-time peers available only at end of ten-second bin",
+    "No actual GATv2 here; this is a signal-value feasibility test",
+    "Same IPs/campaign may recur across train/validation",
+    "Multiple samples are not independent source/campaign observations"
+  ]
+}

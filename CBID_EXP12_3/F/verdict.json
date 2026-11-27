@@ -1,0 +1,10 @@
+{
+  "budget_passes": 1,
+  "positive_suppression_runs": 3,
+  "all_pass": false,
+  "attack_mean": 0.03357266121252783,
+  "benign_max": 0.04537363004359962,
+  "development_floor_met": true,
+  "independent_confirmation": false,
+  "day": "F"
+}

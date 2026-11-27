@@ -1,0 +1,13 @@
+class,support,correct,errors_of_class,false_positives,recall
+ARP_poisioning,115,115,0,198,1.0
+DDOS_Slowloris,8,8,0,0,1.0
+DOS_SYN_Hping,1351,1154,197,0,0.8541820873427091
+MQTT_Publish,62,62,0,0,1.0
+Metasploit_Brute_Force_SSH,1,1,0,0,1.0
+NMAP_FIN_SCAN,0,0,0,0,
+NMAP_OS_DETECTION,30,30,0,1,1.0
+NMAP_TCP_scan,15,14,1,0,0.9333333333333333
+NMAP_UDP_SCAN,39,39,0,0,1.0
+NMAP_XMAS_TREE_SCAN,30,30,0,0,1.0
+Thing_Speak,115,114,1,0,0.991304347826087
+Wipro_bulb,3,3,0,0,1.0

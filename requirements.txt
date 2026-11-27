@@ -1,0 +1,12 @@
+# Reported versions; not a complete lock. Install PyTorch 2.9.0+cu130 separately
+# from its official distribution for the original CUDA environment.
+numpy==2.3.3
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy
+xgboost==3.4.1
+torch==2.9.0
+torch-geometric==2.7.0
+matplotlib
+joblib
+threadpoolctl

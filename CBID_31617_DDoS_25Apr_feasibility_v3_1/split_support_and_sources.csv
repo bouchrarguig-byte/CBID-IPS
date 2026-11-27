@@ -1,0 +1,4 @@
+period,n_bins,n_source_windows,positive_DDoS,benign,n_destination_windows,coordinated_dest_windows_ge2,coordinated_dest_windows_ge5,positive_in_coordinated,unique_DDoS_source_IPs,unique_DDoS_destination_IPs,unique_attacking_source_sets_in_coord,max_windows_sharing_same_attacking_source_set,share_coord_windows_largest_source_set
+A_train,546,33773,6023,27750,15395,2163,0,4337,4,22,5,1882,0.8700878409616274
+A_calibration,529,10911,4666,6245,5978,1559,0,3124,4,10,5,1418,0.9095574085952534
+B_feasibility,1615,30652,12706,17946,16134,4450,0,8900,3,7,1,4450,1.0

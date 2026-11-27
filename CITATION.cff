@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and identify the repository commit used."
+title: "CBID: graph-based IoT intrusion detection reproducibility package"
+authors:
+  - family-names: RGUIG
+    given-names: Bouchra
+  - family-names: HOUSNI
+    given-names: Khalid
+version: 0.1.0
