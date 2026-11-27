@@ -1,4 +1,4 @@
-# CBID: Evidence-Gated Graph Learning for Internet of Things Intrusion Detection
+# CBID: Evidence-Gated Intrusion Detection and Response for the Internet of Things
 
 Reproducibility staging package for IJ-AI manuscript 31617, Bouchra RGUIG and Khalid HOUSNI. This is an author-review candidate for release, not yet a public or independently reproduced artifact. Original submission: 14 January 2026.
 
